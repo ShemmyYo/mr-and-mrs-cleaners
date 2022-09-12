@@ -10,8 +10,8 @@
 
 body {
     font-family: 'Dancing Script', serif;
-    color: #180F19
-    background-color: #929F3E;
+    color: #180F19;
+    background-color: #D9C875;
 }
 
 h1,
@@ -20,6 +20,7 @@ h3 {
     font-family: 'Playfair Display', serif;
     font-size: 100%;
     font-weight: 100;
+    color: #180F19;
     line-height: 1;
 }
 
@@ -31,6 +32,8 @@ img{
 .text-center {
     text-align: center;
 }
+
+
 
 /* ===========
   logo & nav 
@@ -48,6 +51,54 @@ img{
 
 }
 
+
+
 /* ====+++++=======
   hero & left-text  
 ======++++=======*/
+
+.hero-container {
+
+}
+
+#hero-img {
+
+}
+
+#hero-text {
+
+}
+
+
+
+/* ====+++++=======
+     certs  
+======++++=======*/
+
+.certs-container {
+
+}
+
+
+
+/* ====+++++=======
+     contact  
+======++++=======*/
+
+#contact-container {
+
+}
+
+
+
+
+/* ====+++++=========
+     social media  
+======++++=========*/
+.social-links {
+
+}
+
+#copyright-text{
+    
+}
