@@ -71,11 +71,26 @@ img{
 
 
 
+/* ===========
+   services 
+=============*/
+
+.services-container {
+
+}
+
+#services-text {
+    
+}
+
+
+
 /* ====+++++=======
      certs  
 ======++++=======*/
 
 .certs-container {
+    display: flex;
 
 }
 
@@ -97,10 +112,12 @@ img{
 ======++++=========*/
 
 .social-media-container {
+    
 
 }
 
 #social-links {
+    display: flex;
 
 }
 
