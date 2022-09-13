@@ -7,7 +7,7 @@
 
 body {
     width: 100%;
-    margin:0;
+    margin:10% 0 0 0;
     padding:0;
     border: 0;
     border:none;
@@ -35,12 +35,16 @@ img{
     text-align: center;
 }
 
-
-
 .certs-container i {
     color: gold;
     font-size: 150%;
 }
+
+a {
+    text-decoration: none;
+}
+
+
 
 
 
@@ -49,16 +53,45 @@ img{
 =============*/
 
 .nav-container {
+    height:100%;
+    width: 100%;
+}
 
+.nav-left {
+    display: block;
+    margin: 5% 5% 0 0;
+    /* min-width: 40%;
+    max-width: 50%; */
+}
+.nav-right { 
+    display: block;
+    /* background-color: blue; */
+    /* min-width: 40%;
+    max-width: 70%; */
 }
 
 #logo-text {
-
+    display: inline;
+    font-size: 180%;
+    font-weight: 900;
+    text-align: left;
+    padding: 5px 5%;
 }
 
 #logo-right-menu {
-
+    float: right;
+    list-style-type: none;
+    text-align: right;
+    margin-right:3%;
 }
+
+#logo-right-menu li {
+    display: inline-block;
+    list-style-type: none;
+    letter-spacing:1px;
+}
+
+
 
 
 
@@ -67,6 +100,7 @@ img{
 ======++++=======*/
 
 .hero-container {
+    /* margin-top: 400px; */
 
 }
 
@@ -93,6 +127,7 @@ img{
 }
 
 #services-img {
+    max-width: 300px;
 
 }
 
