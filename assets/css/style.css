@@ -138,15 +138,39 @@ img{
      contact us  
 ======++++=========*/
 .contact-container {
-    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content:flex-start;  
+    gap:5%;
+    align-items: center;
+    justify-content: center;
+
     margin: 0;
     border: 0;
     padding: 0;
     background: rgb(217,200,117);
     background: linear-gradient(0deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 05%, rgba(255,255,255,1) 100%);
 
+    position: relative;
 }
 
+#contact-text {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    min-width:300px ;
+    max-width: 25%;
+    margin: 0 5%;
+}
+
+#contact-map {
+    float: right;
+    max-height: 100%;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ====+++++=========
      social media  
