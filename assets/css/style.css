@@ -98,6 +98,24 @@ a {
     letter-spacing:1px;
 }
 
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height:40px;
+    background: #A25B2C;
+
+    font-size: 25px;
+    font-weight: 600;
+    color: #180F19;
+    text-align: center;
+    text-decoration: none;
+
+    
+}
+
 
 
 
@@ -116,7 +134,8 @@ a {
 #hero-container-img {
     
     background:url(/assets/images/hero-picture.png);
-    min-height: 300px;
+    min-height: 35em;
+    min-width: 35em;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -128,13 +147,13 @@ a {
     top:3%;
     left:1%;
     
-    max-width: 350px;
+    max-width: 400px;
     margin: 5%;
 
     background-color: rgba(255, 255, 255, .6);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
         
-    font-size: 80%;
+    font-size: 100%;
     font-weight: 400;
     text-align: center;
     box-sizing:border-box;
