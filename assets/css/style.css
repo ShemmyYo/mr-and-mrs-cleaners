@@ -76,7 +76,11 @@ img{
 =============*/
 
 .services-container {
-
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: rgb(217,200,117);
+    background: linear-gradient(180deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 95%, rgba(255,255,255,1) 100%);
 }
 
 #services-img {
@@ -95,19 +99,9 @@ img{
 
 .certs-container {
     display: flex;
+    background-color: #fff;
 
 }
-
-
-
-/* ====+++++=======
-     contact  
-======++++=======*/
-
-#contact-container {
-
-}
-
 
 
 
@@ -116,7 +110,11 @@ img{
 ======++++=========*/
 
 .social-media-container {
-    
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: rgb(217,200,117);
+    background: linear-gradient(0deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 05%, rgba(255,255,255,1) 100%);
 
 }
 
