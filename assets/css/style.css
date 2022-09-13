@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@200&family=Playfair+Display&display=swap');
 
 * {
-    margin:0;
-    padding:0;
-    border:none;
     box-sizing: border-box;
     list-style: none;
 }
 
 body {
-    font-family: 'Dancing Script', serif;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border: 0;
+    border:none;
+    font-family: 'Kanit', serif;
     color: #180F19;
     background-color: #D9C875;
 }
@@ -37,6 +39,7 @@ img{
 
 .certs-container i {
     color: gold;
+    font-size: 150%;
 }
 
 
@@ -118,12 +121,10 @@ img{
 }
 
 #middle-certs {
-    
     display: flex;
     align-items: center;
     padding: 5% 10%;
     justify-content: center;
-    
 }
 
 #right-stars {
@@ -150,16 +151,41 @@ img{
 /* ====+++++=========
      social media  
 ======++++=========*/
-
 .social-media-container {
+    width: 90%;
+    padding: 5% 10%;
 
 }
 
 #social-links {
     display: flex;
+    gap: 1rem;
 
+    align-items: center;
+    justify-content: center;
+}
+
+
+#social-links i  {
+    min-width: 30px;
+    min-height: 30PX;
+    font-size: 180%;
+    color: #180F19;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ====+++++=========
+     copyrights  
+======++++=========*/
+
+.copyright-container {
+    height: 2rem;
 }
 
 #copyright-text{
-    
+    font-size: 70%;
+    font-stretch: expanded;
+    margin-left: 1%;
 }
