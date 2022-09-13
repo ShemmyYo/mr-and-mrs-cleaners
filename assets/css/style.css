@@ -35,6 +35,12 @@ img{
 
 
 
+.certs-container i {
+    color: gold;
+}
+
+
+
 /* ===========
   logo & nav 
 =============*/
@@ -99,10 +105,46 @@ img{
 
 .certs-container {
     display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
 
 }
 
+#left-stars {
+    align-items: center;
+    padding-top: 5% 0;
+}
+
+#middle-certs {
+    
+    display: flex;
+    align-items: center;
+    padding: 5% 10%;
+    justify-content: center;
+    
+}
+
+#right-stars {
+    align-items: center;
+    padding-bottom: 5% 0;
+}
+
+
+
+/* ====+++++=========
+     contact us  
+======++++=========*/
+.contact-container {
+    height: 20px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background: rgb(217,200,117);
+    background: linear-gradient(0deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 05%, rgba(255,255,255,1) 100%);
+
+}
 
 
 /* ====+++++=========
@@ -110,11 +152,6 @@ img{
 ======++++=========*/
 
 .social-media-container {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    background: rgb(217,200,117);
-    background: linear-gradient(0deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 05%, rgba(255,255,255,1) 100%);
 
 }
 
