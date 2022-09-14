@@ -269,6 +269,7 @@ li > a {
 .certs-container {
     display:inline-flex;
     flex-wrap: wrap; 
+    width: 100%;
     align-items: center;
     justify-content: center;
     background-color: #fff;
@@ -282,13 +283,13 @@ li > a {
 
 #left-stars {
     align-items: center;
-    padding-top: 5% 0;
+    padding: 5% 1%;
 }
 
 #middle-certs {
     display: flex;
     align-items: center;
-    padding: 5% 10%;
+    padding: 5% 5%;
     justify-content: center;
 }
 
