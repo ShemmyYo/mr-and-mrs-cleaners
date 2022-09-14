@@ -200,19 +200,39 @@ li > a {
     font-size: 200%;
 }    
 
+
+
+
+
+/* ===========
+   services 
+=============*/
+
+.testimonials-container {
+    height: 400px;
+    text-align: center;
+    background: rgb(217,200,117);
+    background: linear-gradient(180deg, rgba(217,200,117,1) 5%, rgba(253,253,249,1) 25%, rgba(255,255,255,1) 75%, rgba(217,200,117,1) 95%);
+}
+
+.testimonials-container h1 {
+    padding-top: 40%;
+}
+
+
 /* ===========
    services 
 =============*/
 
 .services-container {
-    margin: 10% 0;
+    /* border: 10% 0 10% 0; */
     width: 100%;
-    overflow:auto;
+    overflow:hidden;
     position: relative;
 
     border: 0;
-    padding: 0;
-    background: rgb(217,200,117);
+    padding: 0 0 20% 0;
+    background: #d9c875;
     background: linear-gradient(180deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 95%, rgba(255,255,255,1) 100%);
 }
 
@@ -236,7 +256,7 @@ li > a {
     margin: 5%;
     padding: 0 2% 0;
     width: 85%;
-    height: 92%;  
+    height: 80%;  
 }
 
 #services-container-text ul {
@@ -267,6 +287,7 @@ li > a {
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    padding-top: 5%;
 
 }
 
