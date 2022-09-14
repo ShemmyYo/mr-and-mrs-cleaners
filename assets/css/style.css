@@ -62,7 +62,7 @@ li > a {
 }
 
 #logo-right-menu a:hover {
-    background: rgb(217,200,117);
+    background: #d9c875;
     background: linear-gradient(0deg, rgba(217,200,117,1) 10%, rgba(255,215,0,1) 50%, rgba(217,200,117,1) 90%);
 }
 
@@ -70,8 +70,22 @@ li > a {
     color: #C7382E;
 }
 
+#contact-text p:hover {
+    font-weight: 900;
+    font-size: 200%;
+    color: #C7382E;
+    background: rgb(139,245,22);
+    background: radial-gradient(circle, rgba(139,245,22,0.8672902960526316) 0%, rgba(217,200,117,1) 90%);
+}
 
-
+.text-box {
+    background-color: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+    font-size: 100%;
+    font-weight: 400;
+    text-align: center;
+    box-sizing:border-box;
+}
 
 
 
@@ -167,24 +181,15 @@ li > a {
     background-repeat:no-repeat ;
 }
 
-
+/* below refers to .text-box defined on top */
 #hero-container-text {
     position: absolute;
     top:3%;
     left:1%;
-    
     max-width: 400px;
     margin: 5%;
-
-    background-color: rgba(255, 255, 255, .6);
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
-        
-    font-size: 100%;
-    font-weight: 400;
-    text-align: center;
-    box-sizing:border-box;
     width: 90%;
-    height: 75%;  
+    height: 77%;  
 }
 
 #hero-container-text p {
@@ -200,9 +205,10 @@ li > a {
 =============*/
 
 .services-container {
-
-    margin-top: 400px;
-    /* margin: 0; */
+    margin: 10% 0;
+    width: 100%;
+    overflow:auto;
+    position: relative;
 
     border: 0;
     padding: 0;
@@ -210,16 +216,46 @@ li > a {
     background: linear-gradient(180deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 95%, rgba(255,255,255,1) 100%);
 }
 
-#services-img {
-    max-width: 300px;
-
+#services-container-img {
+    margin: 0 0;
+    background:url(/assets/images/cleaning-gloves.jpg);
+    min-height: 35em;
+    min-width: 35em;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat:no-repeat ;
 }
 
-#services-text {
-
+/* below refers to .text-box defined on top */
+#services-container-text {
+    position: absolute;
+    top:3%;
+    right:1%;
+    max-width: 400px;
+    margin: 5%;
+    padding: 0 2% 0;
+    width: 85%;
+    height: 92%;  
 }
 
+#services-container-text ul {
+    padding: 0;
+}
 
+#services-container-text li {
+    text-align: left;
+    margin: 0 0 0 6%;
+    list-style:outside ;
+}
+
+#services-container-text p {
+    margin: 0 5% 0 5%;
+}
+
+#services-container-text h2 {
+    font-size: 200%;
+}   
 
 /* ====+++++=======
      certs  
