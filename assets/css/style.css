@@ -143,6 +143,7 @@ li > a {
     width: 100%;
     overflow:auto;
     position: relative;
+    margin-top: 0.5%;
 }
 
 #hero-container-img {
@@ -185,6 +186,7 @@ li > a {
 
 .testimonials-container {
     height: 400px;
+    margin-top: -5%;
     text-align: center;
     background: rgb(253,253,249);
     background: linear-gradient(180deg, rgba(253,253,249,1) 5%, rgba(217,200,117,1) 25%, rgba(217,200,117,1) 75%, rgba(255,255,255,1) 95%);
@@ -193,7 +195,7 @@ li > a {
 }
 
 .testimonials-container h1 {
-    padding-top: 40%;
+    padding-top: 25%;
 }
 
 
