@@ -57,14 +57,21 @@ a {
     border-bottom: 3px solid #8BF516;
 }
 
-li >a {
+li > a {
     padding: 40% 0 40% 0
 }
 
-li > a:hover {
+#logo-right-menu a:hover {
     background: rgb(217,200,117);
     background: linear-gradient(0deg, rgba(217,200,117,1) 10%, rgba(255,215,0,1) 50%, rgba(217,200,117,1) 90%);
 }
+
+#social-links i:hover {
+    color: #C7382E;
+}
+
+
+
 
 
 
@@ -159,6 +166,7 @@ li > a:hover {
     background-position-y: center;
     background-repeat:no-repeat ;
 }
+
 
 #hero-container-text {
     position: absolute;
