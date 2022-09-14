@@ -6,10 +6,6 @@
 }
 
 body {
-    width: 100%;
-    /* max-width: 1240px;
-    align-items: center;
-    justify-content: center; */
     margin:0 0 0 0;
     padding:0;
     border: 0;
@@ -30,22 +26,12 @@ h3 {
     line-height: 1;
 }
 
-/* img{
-    display: block;
-    max-width: 100%;
-} */
-
-.text-center {
-    text-align: center;
-}
-
-.certs-container i {
-    color: #ffd700;
-    font-size: 150%;
-}
-
 a {
     text-decoration: none;
+}
+
+li > a {
+    padding: 40% 0 40% 0
 }
 
 .active {
@@ -57,25 +43,25 @@ a {
     border-bottom: 3px solid #8BF516;
 }
 
-li > a {
-    padding: 40% 0 40% 0
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 7%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height:40px;
+    background: #f1471c80;
+
+    font-size: 25px;
+    font-weight: 600;
+    color: #180F19;
+    text-align: center;
+    text-decoration: none;
 }
 
-#logo-right-menu a:hover {
-    background: #d9c875;
-    background: linear-gradient(0deg, rgba(217,200,117,1) 10%, rgba(255,215,0,1) 50%, rgba(217,200,117,1) 90%);
-}
-
-#social-links i:hover {
-    color: #C7382E;
-}
-
-#contact-text p:hover {
-    font-weight: 900;
-    font-size: 200%;
-    color: #C7382E;
-    background: rgb(139,245,22);
-    background: radial-gradient(circle, rgba(139,245,22,0.8672902960526316) 0%, rgba(217,200,117,1) 90%);
+.button:hover {
+    background: #8BF516;
+    border:#A25B2C;    
 }
 
 .text-box {
@@ -87,6 +73,11 @@ li > a {
     box-sizing:border-box;
 }
 
+.container-box {
+    width: 100%;
+    margin-bottom: 1em;
+    box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.5);
+}
 
 
 /* ===========
@@ -136,25 +127,9 @@ li > a {
     letter-spacing:1px;
 }
 
-.button {
-    display: inline-block;
-    border-radius: 8px;
-    margin-top: 7%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
-    width: 200px;
-    height:40px;
-    background: #f1471c80;
-
-    font-size: 25px;
-    font-weight: 600;
-    color: #180F19;
-    text-align: center;
-    text-decoration: none;
-}
-
-.button:hover {
-    background: #8BF516;
-    border:#A25B2C;    
+#logo-right-menu a:hover {
+    background: #d9c875;
+    background: linear-gradient(0deg, rgba(217,200,117,1) 10%, rgba(255,215,0,1) 50%, rgba(217,200,117,1) 90%);
 }
 
 
@@ -204,15 +179,17 @@ li > a {
 
 
 
-/* ===========
-   services 
-=============*/
+/* ===============
+   testimonials 
+=================*/
 
 .testimonials-container {
     height: 400px;
     text-align: center;
-    background: rgb(217,200,117);
-    background: linear-gradient(180deg, rgba(217,200,117,1) 5%, rgba(253,253,249,1) 25%, rgba(255,255,255,1) 75%, rgba(217,200,117,1) 95%);
+    background: rgb(253,253,249);
+    background: linear-gradient(180deg, rgba(253,253,249,1) 5%, rgba(217,200,117,1) 25%, rgba(217,200,117,1) 75%, rgba(255,255,255,1) 95%);
+    /* background: rgb(217,200,117);
+    background: linear-gradient(180deg, rgba(217,200,117,1) 5%, rgba(253,253,249,1) 25%, rgba(255,255,255,1) 75%, rgba(217,200,117,1) 95%); */
 }
 
 .testimonials-container h1 {
@@ -256,7 +233,7 @@ li > a {
     margin: 5%;
     padding: 0 2% 0;
     width: 85%;
-    height: 80%;  
+    height: 79%;  
 }
 
 #services-container-text ul {
@@ -288,7 +265,11 @@ li > a {
     justify-content: center;
     background-color: #fff;
     padding-top: 5%;
+}
 
+.certs-container i {
+    color: #ffd700;
+    font-size: 150%;
 }
 
 #left-stars {
@@ -336,19 +317,33 @@ li > a {
     text-align: center;
     min-width:300px ;
     max-width: 25%;
-    margin: 10% 5% 5% 0;
+    margin: 10% 0% 5% 0;
     font-size: 140%;
     font-weight: 900;
 }
 
-#contact-map {
+#contact-text p:hover {
+    font-weight: 900;
+    font-size: 200%;
+    color: #C7382E;
+    background: rgb(139,245,22);
+    background: radial-gradient(circle, rgba(139,245,22,0.8672902960526316) 0%, rgba(217,200,117,1) 90%);
+}
+
+#contact-map iframe {
     float: left;
     max-height: 100%;
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
+    min-width: 360px;
+    width:100%;
     margin: 10% 0 0 0;
+    padding: 0;
+    border: 0;
 }
+
+
+
+
+
 
 /* ====+++++=========
      social media  
@@ -376,6 +371,12 @@ li > a {
     align-items: center;
     justify-content: center;
 }
+
+#social-links i:hover {
+    color: #C7382E;
+}
+
+
 
 
 /* ====+++++=========
