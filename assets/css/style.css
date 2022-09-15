@@ -93,7 +93,7 @@ li > a {
 }
 
 .text-box-testimonials {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .5);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     padding: 1%;
@@ -434,14 +434,15 @@ li > a {
 ======++++=========*/
 .social-media-container {
     width: 100%;
-    padding: 5% 10% 5% 10%;
+    max-height: 50px;
+    padding: 0 10% 0 10%;
 
 }
 
 #social-links {
     display: flex;
     gap: 1rem;
-    margin-right: 5%;
+    /* margin-right: 5%; */
     align-items: center;
     justify-content: center;
 }
@@ -449,7 +450,7 @@ li > a {
 
 #social-links i  {
     min-width: 30px;
-    min-height: 30PX;
+    min-height: 50px;
     font-size: 180%;
     color: #180F19;
     align-items: center;
@@ -489,7 +490,7 @@ li > a {
      contact us  form
 ======++++============*/
 
-.contact-us-container{
+.contact-us-container {
     display: flex;
     flex-wrap: wrap;
     min-height: 400px;
@@ -504,7 +505,7 @@ li > a {
 .contact-us-container-img {
     float: left;
     max-width: 100%;
-    margin: 5% 1% 10% 5%;
+    margin: 0 1% 0 5%;
 
     min-height: 200px;
     min-width: 360px;
@@ -513,6 +514,8 @@ li > a {
     background-position-x: center;
     background-position-y: center;
     background-repeat:no-repeat ;
+
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
 
 }
 
@@ -538,4 +541,23 @@ li > a {
 
 .text-box-form-properties-hight:focus {
     min-height: 100px;
+}
+
+.social-media-container-contact-form {
+    margin-top: -1%;
+    background: rgb(217,200,117);
+    background: linear-gradient(0deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 65%, rgba(255,255,255,1) 100%);
+}
+
+.after-submit-contact-form {
+    margin: 15% 5% 10% 5%;
+    padding-top: 20%;
+    text-align: center;
+    font-size:180%;
+}
+
+.copyright-container-after-submit-contct-form {
+    text-align: center;
+    padding-top: 100px;
+
 }
