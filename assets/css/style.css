@@ -37,7 +37,7 @@ li > a {
 
 .active {
     padding-left: 1em;
-    background: rgb(217,200,117);
+    background: #d9c875;
     background: linear-gradient(180deg, rgba(217,200,117,1) 50%, rgba(255,215,0,1) 90%);
     border-bottom: 3px solid #8BF516;
 }
@@ -61,12 +61,6 @@ li > a {
 .button:hover {
     background: #8BF516;
     border:#A25B2C;    
-}
-
-.container-bg-radient {
-    min-height: 500px;
-    background: rgb(253,253,249);
-    background: linear-gradient(0deg, rgba(253,253,249,1) 5%, rgba(217,200,117,1) 30%);
 }
 
 .text-box {
@@ -120,6 +114,7 @@ li > a {
 =============*/
 
 .nav-container {
+    min-height: auto;
     width: 100%;
 }
 
@@ -480,4 +475,67 @@ li > a {
     font-size: 70%;
     font-stretch: expanded;
     margin-left: 1%;
+}
+
+
+
+
+
+
+
+
+
+/* ====+++++============
+     contact us  form
+======++++============*/
+
+.contact-us-container{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 400px;
+
+    background: rgb(253,253,249);
+    background: linear-gradient(0deg, rgba(253,253,249,1) 5%, rgba(217,200,117,1) 30%);
+    background-color: #4e3252;
+    display: flex;
+    width: 100%;
+}
+
+.contact-us-container-img {
+    float: left;
+    max-width: 100%;
+    margin: 5% 1% 10% 5%;
+
+    min-height: 200px;
+    min-width: 360px;
+    background: url(/assets/images/contact-us.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat:no-repeat ;
+
+}
+
+.contact-us-container-form {
+    float: right;
+    min-width: 50%;
+    margin: 5% 5% 10% 1%;
+    font-size:140%;
+}
+
+.text-box-form-properties {
+    width: 100%; 
+    padding: 6px; 
+    border: none;
+    border-bottom: 2px solid black; 
+    box-sizing: border-box; 
+    margin-top: 1%; 
+    margin-bottom: 3%px; 
+    resize: vertical;
+    color: #180F19;
+    background-color: #d9c875;
+}
+
+.text-box-form-properties-hight:focus {
+    min-height: 100px;
 }
