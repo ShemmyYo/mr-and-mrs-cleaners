@@ -178,7 +178,7 @@ li > a {
 
 #hero-container-img {
     
-    background:url(/assets/images/hero-picture.png);
+    background:url(assets/images/hero-picture.png);
     min-height: 35em;
     min-width: 35em;
     background-size: cover;
@@ -296,7 +296,7 @@ li > a {
 
 #services-container-img {
     margin: 0 0;
-    background:url(/assets/images/cleaning-gloves.jpg);
+    background:url(assets/images/cleaning-gloves.jpg);
     min-height: 35em;
     min-width: 35em;
     background-size: cover;
