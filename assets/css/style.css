@@ -22,12 +22,13 @@ h3 {
     font-family: 'Playfair Display', serif;
     font-size: 100%;
     font-weight: 100;
-    color: #180F19;
+    color: #4e3252;
     line-height: 1;
 }
 
 a {
     text-decoration: none;
+    color: #4e3252;
 }
 
 li > a {
@@ -71,6 +72,7 @@ li > a {
 .text-box {
     background-color: rgba(255, 255, 255, .6);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
     font-size: 100%;
     font-weight: 400;
     text-align: center;
@@ -162,7 +164,7 @@ li > a {
     top:3%;
     left:1%;
     max-width: 400px;
-    margin: 5%;
+    margin: 20px 5% 5% 5%;
     width: 90%;
     height: 77%;  
 }
@@ -197,6 +199,15 @@ li > a {
     padding-top: 25%;
 }
 
+.testimonials-container {
+    
+}
+
+
+
+
+
+
 
 /* ===========
    services 
@@ -228,10 +239,11 @@ li > a {
 /* below refers to .text-box defined on top */
 #services-container-text {
     position: absolute;
-    top:3%;
+    top:2%;
     right:1%;
     max-width: 400px;
-    margin: 5%;
+    max-height: 500px;
+    margin: 20px 5% 5% 5%;
     padding: 0 2% 0;
     width: 85%;
     height: 79%;  
@@ -254,6 +266,11 @@ li > a {
 #services-container-text h2 {
     font-size: 200%;
 }   
+
+
+
+
+
 
 /* ====+++++=======
      certs  
@@ -293,6 +310,8 @@ li > a {
 
 
 
+
+
 /* ====+++++=========
      contact us  
 ======++++=========*/
@@ -324,6 +343,11 @@ li > a {
     font-weight: 900;
 }
 
+#contact-text h1 {
+    font-size: 140%;
+    font-weight: 900;
+}
+
 #contact-text p:hover {
     font-weight: 900;
     font-size: 200%;
@@ -351,15 +375,15 @@ li > a {
      social media  
 ======++++=========*/
 .social-media-container {
-    width: 90%;
-    padding: 5% 10%;
+    width: 100%;
+    padding: 5% 10% 5% 10%;
 
 }
 
 #social-links {
     display: flex;
     gap: 1rem;
-
+    margin-right: 5%;
     align-items: center;
     justify-content: center;
 }
