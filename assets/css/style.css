@@ -642,10 +642,26 @@ li > a {
 }
 
 @media screen and (min-width: 800px) {
-
+ 
+    
 }
 
 @media screen and (min-width: 1200px) {
+    #hero-container-text {
+        max-width: 800px;
+        padding: 0 200px;
+    }
+      
+    #hero-container-text h2 {
+        font-size: 240%;
+    } 
+
+    #services-container-text {
+        max-width: 800px;
+        padding: 0 200px;
+    }
+
+
     .gallery-column {
         max-width: 25%;
       }
