@@ -227,7 +227,7 @@ li > a {
 
     width: 100%;
     margin-top: -5%;
-    padding: 10%;
+    padding: 5% 10%;
     align-items: center;
     
     
@@ -267,6 +267,8 @@ li > a {
     font-size: 140%;
     font-weight: 300;
 }
+
+
 
 
 
@@ -369,6 +371,11 @@ li > a {
     align-items: center;
     padding:5% 1% 5% 1%;
 }
+
+
+
+
+
 
 /* ===============
     contact 
@@ -486,6 +493,68 @@ li > a {
 /* ==================================
             services page
 ====================================*/
+
+.services-container-page {
+    padding:100px 5% 200px 5%;
+    min-height: 600px;
+    background: rgb(253,253,249);
+    background: radial-gradient(circle, rgba(253,253,249,1) 45%, rgba(217,200,117,1) 80%);
+}
+
+.services-welcome {
+    text-align: center;
+    font-size: 200%;
+
+}
+
+.services-left {
+    float: left;
+
+}
+
+.services-left-heading {
+
+}
+
+.services-right {
+    float: right;
+}
+
+.services-right-heading {
+
+}
+
+.services-center {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.services-center-container {
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.services-center-cover-bg {
+    background: url("../images/services-circle-bg.jpg");
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
+
+
+
+
+
 
 /* ===================================
             gallery page
