@@ -496,52 +496,74 @@ li > a {
 
 .services-container-page {
     padding:100px 5% 200px 5%;
-    min-height: 600px;
-    background: rgb(253,253,249);
-    background: radial-gradient(circle, rgba(253,253,249,1) 45%, rgba(217,200,117,1) 80%);
+    min-height: auto;
+    background: rgb(217,200,117);
+    background: radial-gradient(circle, rgba(217,200,117,1) 20%, rgba(253,253,249,1) 40%);
+    /* background: rgb(253,253,249);
+    background: radial-gradient(circle, rgba(253,253,249,1) 45%, rgba(217,200,117,1) 80%); */
 }
 
 .services-welcome {
     text-align: center;
     font-size: 200%;
 
+
 }
 
 .services-left {
     float: left;
+    width: 33%;
+    padding-top: 5px;
 
 }
 
 .services-left-heading {
-
+    
+    float: right;
+    clear: both;
+    width: 60%;
+    margin-bottom: 20px;
+    line-height: 20px;    
 }
 
 .services-right {
     float: right;
+    width: 33%;
+    padding-top: 5px;
 }
 
 .services-right-heading {
-
+    
+    float: left;
+    clear: both;
+    width: 60%;
+    margin-bottom: 20px;
+    line-height: 20px;
 }
 
 .services-center {
-    width: 33%;
+    width: 33%%;
     margin: 0 auto;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
 .services-center-container {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 200px auto;
 }
 
 .services-center-cover-bg {
-    background: url("../images/services-circle-bg.jpg");
+    background: url("../images/services-circle-bg.png");
     height: 100%;
     width: 100%;
     border-radius: 50%;
