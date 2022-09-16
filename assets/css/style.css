@@ -268,9 +268,9 @@ li > a {
 
 
 
-/* ===========
-   services 
-=============*/
+/* ==============
+   what we offer 
+================*/
 
 .services-container {
     /* border: 10% 0 10% 0; */
@@ -342,7 +342,6 @@ li > a {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    padding: 0;
 }
 
 .certs-container i {
@@ -364,16 +363,12 @@ li > a {
 
 #right-stars {
     align-items: center;
-    padding:5% 1%;
+    padding:5% 1% 5% 1%;
 }
 
-
-
-
-
-/* ====+++++=========
-     contact us  
-======++++=========*/
+/* ===============
+    contact 
+=================*/
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -384,8 +379,8 @@ li > a {
     justify-content: center;
 
     margin: 0;
-    border: 10% 0;
-    padding: 10% 0;
+    border: 0;
+    padding: 0;
 
     background: rgb(217,200,117);
     background: linear-gradient(0deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 65%, rgba(255,255,255,1) 100%);
@@ -396,9 +391,9 @@ li > a {
 #contact-text {
     float: right;
     text-align: center;
-    min-width:200px ;
+    min-width:100px ;
     max-width: 25%;
-    margin: 10% 0% 5% 0;
+    margin: 5% 0 5% 0;
     font-size: 140%;
     font-weight: 900;
 }
@@ -434,15 +429,15 @@ li > a {
 ======++++=========*/
 .social-media-container {
     width: 100%;
-    max-height: 50px;
-    padding: 0 10% 0 10%;
+    max-height: 100px;
+    padding: 1% 40% 5% 40%;
 
 }
 
 #social-links {
     display: flex;
     gap: 1rem;
-    /* margin-right: 5%; */
+    margin-right: 15%; /* to be changed at media 740 */
     align-items: center;
     justify-content: center;
 }
@@ -485,10 +480,17 @@ li > a {
 
 
 
+/* ==================================
+            services page
+====================================*/
 
-/* ====+++++============
-     contact us  form
-======++++============*/
+/* ===================================
+            gallery page
+====================================*/
+
+/* ===================================
+            contact us page
+====================================*/
 
 .contact-us-container {
     display: flex;
@@ -504,10 +506,9 @@ li > a {
 
 .contact-us-container-img {
     float: left;
-    max-width: 100%;
     margin: 0 1% 0 5%;
 
-    min-height: 200px;
+    max-height: 600px;
     min-width: 360px;
     background: url(/assets/images/contact-us.jpg);
     background-size: cover;
@@ -516,7 +517,6 @@ li > a {
     background-repeat:no-repeat ;
 
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
-
 }
 
 .contact-us-container-form {
@@ -524,19 +524,29 @@ li > a {
     min-width: 50%;
     margin: 5% 5% 10% 1%;
     font-size:140%;
+    text-align: left;
+
 }
 
-.text-box-form-properties {
+.button-centered {
+    text-align: center;
+}
+
+.contact-us-container-form h1 {
+    font-size: 140%;
+}
+
+.text-box-form-properties  {
     width: 100%; 
     padding: 6px; 
     border: none;
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid #4e3252; 
     box-sizing: border-box; 
     margin-top: 1%; 
     margin-bottom: 3%px; 
     resize: vertical;
     color: #180F19;
-    background-color: #d9c875;
+    background-color: rgba(217, 200, 117, 0.1);
 }
 
 .text-box-form-properties-hight:focus {
@@ -544,16 +554,18 @@ li > a {
 }
 
 .social-media-container-contact-form {
-    margin-top: -1%;
-    background: rgb(217,200,117);
-    background: linear-gradient(0deg, rgba(217,200,117,1) 0%, rgba(217,200,117,1) 65%, rgba(255,255,255,1) 100%);
+    background: rgb(253,253,249);
+    background: linear-gradient(180deg, rgba(253,253,249,1) 5%, rgba(217,200,117,1) 60%);
 }
 
 .after-submit-contact-form {
-    margin: 15% 5% 10% 5%;
-    padding-top: 20%;
+    clear: both;
+    margin:10% 5% 10% 5%;
+    padding:5%;
     text-align: center;
-    font-size:180%;
+    align-content: center;
+    font-size:160%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .copyright-container-after-submit-contct-form {
@@ -561,3 +573,11 @@ li > a {
     padding-top: 100px;
 
 }
+
+
+
+
+
+/* ==================================
+            media
+====================================*/
