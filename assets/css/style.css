@@ -543,7 +543,7 @@ li > a {
     margin: 0 1% 0 5%;
 
     /* max-height: 600px; */
-    min-width: 360px;
+    max-width: 360px;
     width: 100%;
     background:url("../images/contact-us.jpg");
     background-size: cover;
