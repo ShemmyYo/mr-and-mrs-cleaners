@@ -392,7 +392,6 @@ li > a {
     float: right;
     text-align: center;
     min-width:100px ;
-    max-width: 25%;
     margin: 5% 0 5% 0;
     font-size: 140%;
     font-weight: 900;
@@ -488,6 +487,41 @@ li > a {
             gallery page
 ====================================*/
 
+.gallery-header {
+    clear: both;
+    text-align: center;
+    margin-top: 10%;
+    padding: 32px;
+    font-size: 200%;
+    background: rgb(253,253,249);
+    background: linear-gradient(0deg, rgba(253,253,249,1) 15%, rgba(217,200,117,1) 45%);
+  }
+  
+  .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px 4px;
+    background-color: #fff;
+  }
+
+  .gallery-column {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .gallery-column img {
+    margin-top: 16px;
+    vertical-align: middle;
+    max-width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+
+  }
+
+
+
+
+
 /* ===================================
             contact us page
 ====================================*/
@@ -511,7 +545,7 @@ li > a {
     /* max-height: 600px; */
     min-width: 360px;
     width: 100%;
-    background: url("../images/contact-us.jpg");
+    background:url("../images/contact-us.jpg");
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -583,3 +617,21 @@ li > a {
 /* ==================================
             media
 ====================================*/
+
+@media screen and (min-width: 600px) {
+    .gallery-column {
+        max-width: 50%;
+      }
+}
+
+@media screen and (min-width: 800px) {
+    .gallery-column {
+        max-width: 33%;
+      }
+}
+
+@media screen and (min-width: 1200px) {
+    .gallery-column {
+        max-width: 25%;
+      }
+}
