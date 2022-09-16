@@ -35,6 +35,10 @@ li > a {
     padding: 40% 0 40% 0
 }
 
+.centered {
+    text-align: center;
+}
+
 .active {
     padding-left: 1em;
     background: #d9c875;
@@ -529,22 +533,18 @@ li > a {
 .contact-us-container {
     display: flex;
     flex-wrap: wrap;
-    min-height: 400px;
+    width: 100%;
+    min-height: 360px;
 
     background: rgb(253,253,249);
     background: linear-gradient(0deg, rgba(253,253,249,1) 5%, rgba(217,200,117,1) 30%);
     background-color: #4e3252;
-    display: flex;
-    width: 100%;
+    
 }
 
 .contact-us-container-img {
-    float: left;
-    margin: 0 1% 0 5%;
+    margin: 0 5% 0 5%;
 
-    /* max-height: 600px; */
-    max-width: 360px;
-    width: 100%;
     background:url("../images/contact-us.jpg");
     background-size: cover;
     background-position-x: center;
@@ -555,18 +555,14 @@ li > a {
 }
 
 .contact-us-container-form {
-    float: right;
-    width: 40%;
-    min-width: 40%;
+    width: 100%;
     margin: 5% 5% 10% 5%;
     font-size:140%;
-    /* text-align: left; */
+    text-align: left;
 
 }
 
-.button-centered {
-    text-align: center;
-}
+
 
 .contact-us-container-form h1 {
     font-size: 140%;
@@ -619,15 +615,34 @@ li > a {
 ====================================*/
 
 @media screen and (min-width: 600px) {
+    
     .gallery-column {
         max-width: 50%;
       }
+
+    .contact-us-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .contact-us-container-form {
+        width: 40%;
+    }
+
+    .contact-us-container-img {
+        float: left;
+        max-height: auto;
+        min-width: 100px;
+        max-width: auto;
+        width: 40%;
+        margin: 5% 1% 5% 5%;
+    }
 }
 
 @media screen and (min-width: 800px) {
-    .gallery-column {
-        max-width: 33%;
-      }
+
 }
 
 @media screen and (min-width: 1200px) {
