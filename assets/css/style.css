@@ -508,9 +508,10 @@ li > a {
     float: left;
     margin: 0 1% 0 5%;
 
-    max-height: 600px;
+    /* max-height: 600px; */
     min-width: 360px;
-    background: url(/assets/images/contact-us.jpg);
+    width: 100%;
+    background: url("../images/contact-us.jpg");
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
@@ -521,10 +522,11 @@ li > a {
 
 .contact-us-container-form {
     float: right;
-    min-width: 50%;
-    margin: 5% 5% 10% 1%;
+    width: 40%;
+    min-width: 40%;
+    margin: 5% 5% 10% 5%;
     font-size:140%;
-    text-align: left;
+    /* text-align: left; */
 
 }
 
