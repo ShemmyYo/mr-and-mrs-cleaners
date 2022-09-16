@@ -643,7 +643,9 @@ li > a {
 
 @media screen and (min-width: 800px) {
  
-    
+    .testimonials-container { 
+        padding: 20% 15%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -661,7 +663,10 @@ li > a {
         padding: 0 200px;
     }
 
-
+    .testimonials-container { 
+        padding: 20% 0;
+    }
+}
     .gallery-column {
         max-width: 25%;
       }
