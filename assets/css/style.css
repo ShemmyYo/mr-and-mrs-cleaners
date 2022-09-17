@@ -518,12 +518,12 @@ hr {
 .services-left {
     float: left;
     width: 45%;
-    padding-top: 5px;
+    padding-top: 5%;
 }
 .services-right {
     float: right;
     width: 45%;
-    padding-top: 5px;
+    padding-top: 5%;
 }
 .services-center {
     width: 0;
@@ -543,7 +543,7 @@ hr {
     text-align: left;
 }
 .services-left-heading h2 {
-    text-align: right;
+    text-align: left;
 }
 
 .services-right-heading { 
@@ -557,29 +557,14 @@ hr {
     text-align: right;
 }
 .services-right-heading h2 {
-    text-align: left;
+    text-align: right;
 }
-
 
 .services-center-container {
     height: 0;
-    /* width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 200px auto; */
 }
 .services-center-cover-bg {
     height: 0;
-    /* background: url("../images/services-circle-bg.png");
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    background-position-x: center;
-    background-position-y: center; */
 }
 
 
@@ -748,21 +733,23 @@ hr {
  
     .services-container-page {
         padding:100px 5% 200px 5%;
-        background: rgb(217,200,117);
-        background: radial-gradient(circle, rgba(217,200,117,1) 20%, rgba(253,253,249,1) 40%);
+        background: rgb(253,253,249);
+        background: radial-gradient(circle, rgba(253,253,249,1) 16%, rgba(217,200,117,1) 85%);
+        /* background: rgb(217,200,117);
+        background: radial-gradient(circle, rgba(217,200,117,1) 20%, rgba(253,253,249,1) 40%); */
     }
 
     .services-left {
         float: left;
         /* clear: both; */
         width: 33%;
-        padding-top: 5px;
+        padding-top: 5%x;
     }
     .services-right {
         float: right;
         /* clear: both; */
         width: 33%;
-        padding-top: 5px;
+        padding-top: 5%;
     }
     .services-center {
         width: 33%;
@@ -782,7 +769,7 @@ hr {
         text-align: left;
     }
     .services-left-heading h2 {
-        text-align: left;
+        text-align: right;
     }
     
     .services-right-heading { 
@@ -796,18 +783,18 @@ hr {
         text-align: right;
     }
     .services-right-heading h2 {
-        text-align: right;
+        text-align: left;
     }
     
     .services-center-container {
         min-width: 300px;
-        min-height: 300px;
-        padding: 30px;
+        min-height: 500px;
+        padding: 20px;
         border-style: solid;
         border-color: #ccc;
         border-width: 1px;
         border-radius: 50%;
-        margin: 200px auto;
+        margin: 100px auto;
     }
     .services-center-cover-bg {
         background: url("../images/services-circle-bg.png");
