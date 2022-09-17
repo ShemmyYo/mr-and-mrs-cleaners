@@ -130,11 +130,11 @@ hr {
 
 .nav-left {
     display: block;
-    border: 0 5% 0 0;
+    border-right: 5%;
 }
 .nav-right { 
     display: block;
-    border: 0 0 0 5%;
+    border-left: 5%;
 }
 
 #logo-text {
@@ -663,7 +663,7 @@ hr {
     border-bottom: 2px solid #4e3252; 
     box-sizing: border-box; 
     margin-top: 1%; 
-    margin-bottom: 3%px; 
+    margin-bottom: 3%; 
     resize: vertical;
     color: #180F19;
     background-color: rgba(217, 200, 117, 0.1);
@@ -721,9 +721,7 @@ hr {
 
     .contact-us-container-img {
         float: left;
-        max-height: auto;
         min-width: 100px;
-        max-width: auto;
         width: 40%;
         margin: 5% 1% 5% 5%;
     }
@@ -743,7 +741,7 @@ hr {
         float: left;
         /* clear: both; */
         width: 33%;
-        padding-top: 5%x;
+        padding-top: 5%;
     }
     .services-right {
         float: right;
