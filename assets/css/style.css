@@ -130,11 +130,9 @@ hr {
 
 .nav-left {
     display: block;
-    border-right: 5%;
 }
 .nav-right { 
     display: block;
-    border-left: 5%;
 }
 
 #logo-text {
@@ -414,8 +412,8 @@ hr {
     font-weight: 900;
 }
 
-#contact-text h1 {
-    font-size: 140%;
+#contact-text h2 {
+    font-size: 200%;
     font-weight: 900;
 }
 
