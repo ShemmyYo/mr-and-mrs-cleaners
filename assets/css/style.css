@@ -198,7 +198,7 @@ hr {
 .hero-container {
     /* margin-top: 400px; */
     width: 100%;
-    overflow:auto;
+    overflow: hidden;
     position: relative;
 }
 
@@ -211,6 +211,22 @@ hr {
     background-position-x: center;
     background-position-y: center;
     background-repeat:no-repeat ;
+
+    animation-name: hero-zoom;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 /* below refers to .text-box defined on top */
@@ -285,6 +301,24 @@ hr {
     margin-left: -300px;
     position: absolute;
 }
+.testimonials-container-box-img:hover {
+    animation-name: testimonials-zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes testimonials-zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
 
 .testimonials-container-box-text {
     font-size: 80%;
@@ -327,6 +361,26 @@ hr {
     background-position-y: center;
     background-repeat:no-repeat ;
 }
+
+#services-container-img:hover {
+    animation-name: testimonials-zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes testimonials-zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
 
 /* below refers to .text-box defined on top */
 #services-container-text {
@@ -839,7 +893,22 @@ hr {
         border-radius: 50%;
         background-position-x: center;
         background-position-y: center;
+
+        animation-name: testimonials-zoom;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
+    
+    @keyframes testimonials-zoom {
+        from{
+            transform: scale(3);
+        }
+        to{
+            transform: scale(1);
+        }
+    
+    }
+    
     
 
 
