@@ -607,7 +607,21 @@ hr {
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
 
   }
+.img-hover:hover {
+    animation-name: animation-gallery-img;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+}
 
+/* creates level of zoom for here image */
+@keyframes animation-gallery-img {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
 
 
 
