@@ -609,16 +609,19 @@ hr {
   }
 .img-hover:hover {
     animation-name: animation-gallery-img;
-    animation-duration:1s;
-    animation-fill-mode: forwards;
+    animation-duration:0.2s;
+    animation-fill-mode:forwards;
 }
 
 /* creates level of zoom for here image */
 @keyframes animation-gallery-img {
-    from{
-        transform: scale(0.5);
+    0%{
+        transform: scale(1);
     }
-    to{
+    50%{
+        transform: scale(0.98);
+    }
+    100%{
         transform: scale(1);
     }
 }
