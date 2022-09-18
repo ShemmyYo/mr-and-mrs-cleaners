@@ -86,6 +86,8 @@ hr {
         background: #8BF516;
         border:#A25B2C; 
     }
+    
+    
 }
 
 .text-box {
@@ -143,7 +145,16 @@ hr {
     }
 }
 
-
+@keyframes zoom-in {
+    0%{
+        transform: scale(1);
+        font-weight: 400;
+    }
+    100%{
+        transform: scale(1.1);
+        font-weight: 700;
+    }
+}
 
 
 
@@ -622,7 +633,16 @@ animation-fill-mode: forwards;
     margin: 0 auto;
 }
 
-
+.services-right p:hover {
+    animation-name: zoom-in;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+.services-left p:hover {
+    animation-name: zoom-in;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
 
 .services-left-heading {
     float: right;
