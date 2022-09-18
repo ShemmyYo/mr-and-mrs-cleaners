@@ -306,10 +306,10 @@ animation-fill-mode: forwards;
 
     width: 100%;
     margin-top: -5%;
+    padding-top: 10%;
     align-items: center;
     
-    
-    background: rgb(253,253,249); */
+    background: rgb(253,253,249);
     background: linear-gradient(180deg, rgba(253,253,249,1) 5%, rgba(217,200,117,1) 25%, rgba(217,200,117,1) 75%, rgba(255,255,255,1) 95%);
     /* background: rgb(217,200,117);
     background: linear-gradient(180deg, rgba(217,200,117,1) 5%, rgba(253,253,249,1) 25%, rgba(255,255,255,1) 75%, rgba(217,200,117,1) 95%); */
@@ -967,7 +967,7 @@ animation-fill-mode: forwards;
     }
 
     .testimonials-container { 
-        padding: 20% 15%;
+        padding: 10% 15%;
     }
 }
 
