@@ -69,8 +69,23 @@ hr {
 }
 
 .button:hover {
-    background: #8BF516;
-    border:#A25B2C;    
+    /* background: #8BF516;
+    border:#A25B2C;    */
+    
+    animation-name: button-zoom;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-zoom {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+        background: #8BF516;
+        border:#A25B2C; 
+    }
 }
 
 .text-box {
@@ -113,7 +128,20 @@ hr {
 
 }
 
-
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+        font-weight: 400;
+    }
+    50%{
+        transform: scale(1.1);
+        font-weight: 700;
+    }
+    100%{
+        transform: scale(1);
+        font-weight: 400;
+    }
+}
 
 
 
@@ -212,22 +240,11 @@ hr {
     background-position-y: center;
     background-repeat:no-repeat ;
 
-    animation-name: hero-zoom;
+    animation-name: zoom;
     animation-duration: 30s;
     animation-fill-mode: forwards;
 }
 
-@keyframes hero-zoom {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
 
 /* below refers to .text-box defined on top */
 #hero-container-text {
@@ -244,9 +261,17 @@ hr {
     margin: 0 5%;
 }
 
+
 #hero-container-text h2 {
     font-size: 200%;
 }    
+
+#hero-container-text p:hover {
+animation-name: zoom;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+
 
 
 
@@ -302,22 +327,11 @@ hr {
     position: absolute;
 }
 .testimonials-container-box-img:hover {
-    animation-name: testimonials-zoom;
+    animation-name: zoom;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 
-@keyframes testimonials-zoom {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
 
 
 .testimonials-container-box-text {
@@ -363,23 +377,10 @@ hr {
 }
 
 #services-container-img:hover {
-    animation-name: testimonials-zoom;
+    animation-name: zoom;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
-
-@keyframes testimonials-zoom {
-    0%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-
 
 
 /* below refers to .text-box defined on top */
@@ -404,6 +405,11 @@ hr {
     margin: 0 0 0 6%;
     list-style:outside ;
 }
+#services-container-text li:hover {
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 
 #services-container-text p {
     margin: 0 5% 0 5%;
@@ -413,8 +419,11 @@ hr {
     font-size: 200%;
 }   
 
-
-
+#services-container-text h3:hover {
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 
 
 
@@ -466,7 +475,6 @@ hr {
     flex-wrap: wrap;
     overflow: hidden;
     justify-content:flex-start;  
-    gap:5%;
     align-items: center;
     justify-content: center;
 
@@ -493,13 +501,22 @@ hr {
     font-size: 200%;
     font-weight: 900;
 }
+#contact-text h2:hover {
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
 
 #contact-text p:hover {
     font-weight: 900;
-    font-size: 200%;
+    /* font-size: 200%; */
     color: #C7382E;
     background: rgb(139,245,22);
     background: radial-gradient(circle, rgba(139,245,22,0.8672902960526316) 0%, rgba(217,200,117,1) 90%);
+
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 #contact-map iframe {
@@ -732,6 +749,19 @@ hr {
     background-repeat:no-repeat ;
 
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+
+    animation-name: contact-us-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes contact-us-zoom {
+    from{
+        transform: scale(0)        
+    }
+    to{
+        transform: scale(1)
+    }
 }
 
 .contact-us-container-form {
@@ -910,7 +940,13 @@ hr {
     }
     
     
-
+    #contact-map {
+        width: 55%;
+        height: auto;
+    }
+    #contact-text {
+        width: 45%;
+    }
 
     .testimonials-container { 
         padding: 20% 15%;
