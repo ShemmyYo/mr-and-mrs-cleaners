@@ -162,8 +162,31 @@ hr {
 }
 
 #logo-right-menu a:hover {
-    background: #d9c875;
-    background: linear-gradient(0deg, rgba(217,200,117,1) 10%, rgba(255,215,0,1) 50%, rgba(217,200,117,1) 90%);
+
+    animation-name: slidein-logo-right-menu;
+    animation-duration:0.2s;
+    animation-fill-mode: forwards;
+}
+
+/* creates level of slide in */
+@keyframes slidein-logo-right-menu {
+    0% {
+        background: rgb(217,200,117);
+        background: linear-gradient(180deg, rgba(217,200,117,1) 5%, rgba(217,200,117,1) 95%, rgba(255,215,0,1) 98%);
+      }
+      35% {
+        background: rgb(217,200,117);
+        background: linear-gradient(180deg, rgba(217,200,117,1) 5%, rgba(217,200,117,1) 86%, rgba(255,215,0,1) 98%);
+      }
+      70% {
+        background: rgb(217,200,117);
+        background: linear-gradient(180deg, rgba(217,200,117,1) 5%, rgba(217,200,117,1) 78%, rgba(255,215,0,1) 98%);
+      }
+    100% {
+        background: rgb(217,200,117);
+        background: linear-gradient(180deg, rgba(217,200,117,1) 5%, rgba(255,215,0,1) 70%, rgba(217,200,117,1) 95%);
+
+      }
 }
 
 
