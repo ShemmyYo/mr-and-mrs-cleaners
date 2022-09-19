@@ -428,6 +428,14 @@ animation-fill-mode: forwards;
     font-size: 200%;
 }   
 
+#offer-satisfsction-h3 {
+    color: red;
+    font-weight: 900;
+    font-size: 180%;
+    margin: 0;
+
+}
+
 #services-container-text h3:hover {
     animation-name: zoom;
     animation-duration: 1s;
