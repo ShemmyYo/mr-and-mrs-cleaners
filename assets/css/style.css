@@ -243,7 +243,7 @@ hr {
 
 #hero-container-img {
     
-    background:url("../images/hero-picture.png");
+    background:url("../images/hero-picture.jpg");
     min-height: 35em;
     min-width: 35em;
     background-size: cover;
@@ -518,6 +518,8 @@ animation-fill-mode: forwards;
 
 #contact-text p:hover {
     font-weight: 900;
+    margin-left: 5%;
+    margin-right:5%;
     /* font-size: 200%; */
     color: #C7382E;
     background: rgb(139,245,22);
@@ -675,6 +677,7 @@ animation-fill-mode: forwards;
 }
 .services-center-cover-bg {
     height: 0;
+    background-size: auto ;
 }
 
 
@@ -936,6 +939,7 @@ animation-fill-mode: forwards;
     }
     .services-center-cover-bg {
         background: url("../images/services-circle-bg.png");
+        background-size: cover;
         height: 100%;
         width: 100%;
         border-radius: 50%;
