@@ -45,14 +45,14 @@ hr {
 }
 
 #logo-right-menu a:hover {
-border-bottom: 3px solid #8BF516;
+border-bottom: 3px solid rgb(255, 251, 230);
 }
 
 .active {
     padding-left: 1em;
-    background: #d9c875;
-    background: linear-gradient(180deg, rgba(217,200,117,1) 50%, rgba(255,215,0,1) 90%);
-    border-bottom: 3px solid #8BF516;
+    background: rgb(217,200,117);
+    background: linear-gradient(180deg, rgba(217,200,117,0) 50%, rgba(255,251,230,0.4990371148459384) 95%, rgba(217,200,117,1) 98%);
+    border-bottom: 3px solid #fffbe6;
 }
 
 .button {
@@ -242,7 +242,7 @@ border-bottom: 3px solid #8BF516;
 }    
 
 #hero-container-text p:hover {
-animation-name: zoom-in;
+animation-name: zoom;
 animation-duration: 1s;
 animation-fill-mode: forwards;
 }
@@ -487,7 +487,7 @@ animation-fill-mode: forwards;
     font-weight: 900;
 }
 #contact-text h2:hover {
-    animation-name: zoom-in;
+    animation-name: zoom;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
@@ -580,27 +580,28 @@ animation-fill-mode: forwards;
 .services-container-page {
     padding:200px 5% 200px 5%;
     height: 1000px;
-    background: rgb(217,200,117);
-    background: radial-gradient(circle, rgba(217,200,117,1) 20%, rgba(253,253,249,1) 40%);
-    background: rgb(253,253,249);
-    background: radial-gradient(circle, rgba(253,253,249,1) 45%, rgba(217,200,117,1) 80%);
+    /* background: rgb(217,200,117);
+    background: radial-gradient(circle, rgba(217,200,117,1) 20%, rgba(253,253,249,1) 40%); */
+    /* background: rgb(253,253,249);
+    background: radial-gradient(circle, rgba(253,253,249,1) 45%, rgba(217,200,117,1) 80%); */
     
 }
 
 .services-welcome {
     text-align: center;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 .services-left {
     float: left;
     width: 45%;
-    padding-top: 5%;
+    padding-right: 2%;
 }
+
 .services-right {
     float: right;
     width: 45%;
-    padding-top: 5%;
+    padding-left: 2%;
 }
 .services-center {
     width: 0;
@@ -627,9 +628,11 @@ animation-fill-mode: forwards;
 }
 .services-left-heading p {
     text-align: left;
+    font-size: 120%;
 }
 .services-left-heading h2 {
     text-align: left;
+    font-size: 120%;
 }
 
 .services-right-heading { 
@@ -641,9 +644,11 @@ animation-fill-mode: forwards;
 }
 .services-right-heading p {
     text-align: right;
+    font-size: 120%;
 }
 .services-right-heading h2 {
     text-align: right;
+    font-size: 120%;
 }
 
 .services-center-container {
@@ -671,7 +676,7 @@ animation-fill-mode: forwards;
     text-align: center;
     margin-top: 10%;
     padding: 32px;
-    font-size: 200%;
+    font-size: 300%;
     background: rgb(253,253,249);
     background: linear-gradient(0deg, rgba(253,253,249,1) 15%, rgba(217,200,117,1) 45%);
   }
@@ -770,7 +775,7 @@ animation-fill-mode: forwards;
 
 
 .contact-us-container-form h1 {
-    font-size: 140%;
+    font-size: 160%;
 }
 
 .text-box-form-properties  {
