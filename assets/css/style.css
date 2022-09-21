@@ -35,7 +35,7 @@ li > a {
 }
 
 hr {
-    border-top: 1px solid rgb(27, 38, 37);
+    border-top: 1px solid #1b2625;
     width: 100%;
     margin: 5px 0;
 }
@@ -45,12 +45,12 @@ hr {
 }
 
 #logo-right-menu a:hover {
-border-bottom: 3px solid rgb(255, 251, 230);
+border-bottom: 3px solid #fffbe6;
 }
 
 .active {
     padding-left: 1em;
-    background: rgb(217,200,117);
+    background: #d9c875;
     background: linear-gradient(180deg, rgba(217,200,117,0) 50%, rgba(255,251,230,0.4990371148459384) 95%, rgba(217,200,117,1) 98%);
     border-bottom: 3px solid #fffbe6;
 }
@@ -59,13 +59,13 @@ border-bottom: 3px solid rgb(255, 251, 230);
     display: inline-block;
     border-radius: 8px;
     margin-top: 7%;
-    box-shadow: 0 5px 8px 0 rgba(27, 38, 37, 0.5);
+    box-shadow: 0 5px 8px 0 #1b262580;
     width: 200px;
     height:40px;
-    background: #f1471c80;
+    background: #c8673c80;
     font-size: 25px;
     font-weight: 600;
-    color: #180F19;
+    color: #1B2625;
     text-align: center;
     text-decoration: none;
 }
@@ -82,14 +82,14 @@ border-bottom: 3px solid rgb(255, 251, 230);
     }
     100%{
         transform: scale(1.1);
-        background: #8BF516;
-        border:#A25B2C; 
+        background: #d5A256;
+        border:#c8673c; 
     }  
 }
 
 .box-shadow {
-    background-color: rgba(255, 255, 255, .6);
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: #fffbe6;
+    box-shadow: 0 5px 8px 0 #aB262580;
     border-radius: 8px;
 }
 
@@ -103,26 +103,24 @@ border-bottom: 3px solid rgb(255, 251, 230);
 .container-box {
     width: 100%;
     margin-bottom: 1em;
-    box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 8px 0 #fffbe680;
 }
 
 .container-box-testimonials {
     width: 100%;
     margin-bottom: 1em;
     border-radius: 8px;
-    box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 8px 0 #fffbe680;
 }
 
 .container-box-testimonials-inner {
     margin-bottom: 1em;
     border-radius: 8px;
-    box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 8px 0 #fffbe680;
 }
 
 .text-box-testimonials {
     padding: 1%;
-    /* font-size: 100%;
-    font-weight: 400; */
     text-align:center;
 }
 
@@ -219,7 +217,6 @@ border-bottom: 3px solid rgb(255, 251, 230);
     animation-duration: 30s;
     animation-fill-mode: forwards;
 }
-
 
 /* below refers to .text-box defined on top */
 #hero-container-text {
@@ -398,7 +395,7 @@ animation-fill-mode: forwards;
 }   
 
 #offer-satisfsction-h3 {
-    color: red;
+    color: #c8673c;
     font-weight: 900;
     font-size: 130%;
     margin: 0;
@@ -496,8 +493,8 @@ animation-fill-mode: forwards;
     font-weight: 900;
     margin-left: 5%;
     margin-right:5%;
-    color: #C7382E;
-    background: rgb(139,245,22);
+    color: #c8673c;
+    background: #c8673c;
     background: radial-gradient(circle, rgba(139,245,22,0.8672902960526316) 0%, rgba(217,200,117,1) 90%);
     animation-name: zoom;
     animation-duration: 1s;
@@ -698,7 +695,7 @@ animation-fill-mode: forwards;
     vertical-align: middle;
     max-width: 90%;
     border-radius: 8px;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 8px 0 #1b262580;
 
   }
 .img-hover:hover {
@@ -878,6 +875,7 @@ animation-fill-mode: forwards;
     .services-center {
         width: 33%;
         margin: 0 auto;
+        padding-top: 1%;
     }
     
     
@@ -915,9 +913,7 @@ animation-fill-mode: forwards;
         min-width: 300px;
         min-height: 500px;
         padding: 20px;
-        border-style: solid;
-        border-color: #ccc;
-        border-width: 1px;
+        border-style:none;
         border-radius: 50%;
         margin: 100px auto;
     }
