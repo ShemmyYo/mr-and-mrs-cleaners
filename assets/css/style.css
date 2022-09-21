@@ -21,13 +21,13 @@ h3 {
     font-family: 'Playfair Display', serif;
     font-size: 100%;
     font-weight: 100;
-    color: #4e3252;
+    color: #1B2625;
     line-height: 1;
 }
 
 a {
     text-decoration: none;
-    color: #4e3252;
+    color: #1B2625;
 }
 
 li > a {
@@ -35,7 +35,7 @@ li > a {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid rgb(27, 38, 37);
     width: 100%;
     margin: 5px 0;
 }
@@ -59,7 +59,7 @@ border-bottom: 3px solid #8BF516;
     display: inline-block;
     border-radius: 8px;
     margin-top: 7%;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 8px 0 rgba(27, 38, 37, 0.5);
     width: 200px;
     height:40px;
     background: #f1471c80;
@@ -87,10 +87,13 @@ border-bottom: 3px solid #8BF516;
     }  
 }
 
-.text-box {
+.box-shadow {
     background-color: rgba(255, 255, 255, .6);
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
     border-radius: 8px;
+}
+
+.text-box {
     font-size: 100%;
     font-weight: 400;
     text-align: center;
@@ -117,9 +120,6 @@ border-bottom: 3px solid #8BF516;
 }
 
 .text-box-testimonials {
-    background-color: rgba(255, 255, 255, .5);
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
     padding: 1%;
     /* font-size: 100%;
     font-weight: 400; */
@@ -215,8 +215,7 @@ border-bottom: 3px solid #8BF516;
     background-position-x: center;
     background-position-y: center;
     background-repeat:no-repeat ;
-
-    animation-name: zoom;
+    animation-name: zoom-in;
     animation-duration: 30s;
     animation-fill-mode: forwards;
 }
@@ -243,7 +242,7 @@ border-bottom: 3px solid #8BF516;
 }    
 
 #hero-container-text p:hover {
-animation-name: zoom;
+animation-name: zoom-in;
 animation-duration: 1s;
 animation-fill-mode: forwards;
 }
@@ -307,16 +306,21 @@ animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
-
-
 .testimonials-container-box-text {
     font-size: 80%;
+}
+
+.testimonials-container-box-text:hover {
+    animation-name: zoom-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .testimonials-container-box-text h2 {
     font-size: 140%;
     font-weight: 300;
 }
+
 
 
 
@@ -380,7 +384,7 @@ animation-fill-mode: forwards;
     list-style:outside ;
 }
 #services-container-text li:hover {
-    animation-name: zoom;
+    animation-name: zoom-in;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
@@ -483,7 +487,7 @@ animation-fill-mode: forwards;
     font-weight: 900;
 }
 #contact-text h2:hover {
-    animation-name: zoom;
+    animation-name: zoom-in;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
@@ -492,11 +496,9 @@ animation-fill-mode: forwards;
     font-weight: 900;
     margin-left: 5%;
     margin-right:5%;
-    /* font-size: 200%; */
     color: #C7382E;
     background: rgb(139,245,22);
     background: radial-gradient(circle, rgba(139,245,22,0.8672902960526316) 0%, rgba(217,200,117,1) 90%);
-
     animation-name: zoom;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -950,25 +952,50 @@ animation-fill-mode: forwards;
     .testimonials-container { 
         padding: 10% 15%;
     }
+    .testimonials-container-box-text {
+        font-size: 120%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     #hero-container-text {
         max-width: 800px;
-        padding: 0 200px;
+        height: 85%;
+        padding: 0;
     }
       
     #hero-container-text h2 {
         font-size: 240%;
     } 
 
+    #hero-container-text p {
+        font-size: 140%;
+    }
+
     #services-container-text {
         max-width: 800px;
-        padding: 0 200px;
+        height: 95%;
+        padding: 0 5%;
+    }
+    
+    #services-container-text h2 {
+        font-size: 200%;
+    }
+
+    #services-container-text h3 {
+        font-size: 125%;
+    } 
+
+
+    #services-container-text li {
+        font-size: 130%;
     }
 
     .testimonials-container { 
         padding: 10% 0;
+    }
+    .testimonials-container-box-text {
+        font-size: 120%;
     }
 
     .gallery-column {
