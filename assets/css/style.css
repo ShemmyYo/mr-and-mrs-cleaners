@@ -44,6 +44,10 @@ hr {
     text-align: center;
 }
 
+#logo-right-menu a:hover {
+border-bottom: 3px solid #8BF516;
+}
+
 .active {
     padding-left: 1em;
     background: #d9c875;
@@ -190,11 +194,6 @@ hr {
     list-style-type: none;
     letter-spacing:1px;
 }
-
-#logo-right-menu a:hover {
-    border-bottom: 3px solid #8BF516;
-}
-
 
 /* ====+++++=======
   hero & left-text  
