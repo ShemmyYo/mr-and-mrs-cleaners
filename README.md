@@ -2,14 +2,12 @@
 
 Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleaner.ie/) of my friends and is intended to showcase new web-technologies (like HTML and CSS) and new, atractive solution to presenting their business content to potential new customers
 
-
 ![Multi Device Demo](assets/other/am-i-responsive-img.png)
-
 
 ## __Live Web-Page__
 [Mr&Mrs Cleaners](https://shemmyyo.github.io/mr-and-mrs-cleaners/)
 
-## GitHub Repository 
+## __GitHub Repository__
 [https://github.com/ShemmyYo/mr-and-mrs-cleaners](https://github.com/ShemmyYo/mr-and-mrs-cleaners)
 
 ## __Tech Stack__
@@ -18,7 +16,6 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 <img height="50" src="/workspace/mr-and-mrs-cleaners/assets/other/css-img.png"> **CSS3**
 <img height="50" src="/workspace/mr-and-mrs-cleaners/assets/other/gitpod.png"> **Gitpod**
 <img height="45" src="/workspace/mr-and-mrs-cleaners/assets/other/github.png"> **Git**
-
 
 ***
 
@@ -48,9 +45,10 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
     - [To Fork the Repository](#to-fork-the-repository)
     - [To create a Local Clone](#to-create-a-local-clone)
 - [Credits](#credits)
+    - [Code](#code)
+    - [Design](#design)
     - [Content](#content)
     - [Media](#media) 
-    - [Code](#code)
 - [Acknowledgements](#acknowledgements)
 
 ***
@@ -114,6 +112,7 @@ Mr&Mrs Cleaners is a 5 page website.
 The home page is the default loading page, 3 pages are accessible from the navigation menu at all times and 1 page is only displayed on Contact Page Form submittion.  
 
 ### __Colour Scheme__
+
 I used <img height="12" src="/workspace/mr-and-mrs-cleaners/assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/) to find a perfect colour scheme that would tie-in with the nature of the business, be easily readable and visually appealing to users.
 
 ![image](assets/other/color-scheme.png)
@@ -142,38 +141,39 @@ The content images on Gallery Page are aligned in neat symmetrical grids for opt
 
 Mr&Mrc Cleaners webpage contains  features such as a navigational bar, service certificates, contact details and footer, familiar to all internet users. This creates a friendly and non intimidating environment in which the user can feel comfortable to explore the pages, make return visits, and enjoy a positive user experience.
 
-### Existing Features
+### __Existing Features__
 
-#### Home
+#### __Home__
 
-##### Navigational Bar 
+##### __Navigational Bar__
 
-##### Footer 
+##### __Footer__
 
-#### Gallery
+#### __Gallery__
 
-#### Contact
+#### __Contact__
 
-#### Form Confirmation
+#### __Form Confirmation__
 
 ***
 
-## Technologies Used
+## __Technologies Used__
 
 - [HTML5](https://html.spec.whatwg.org/) - provides content and structure 
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides styling 
 - [Balsamiq](https://balsamiq.com/) - for wireframes
-TBC
+- [Eagle](https://en.eagle.cool/) - to collect, search and organize your design files in a logical way and all in one place
 - [Font Awesome](https://fontawesome.com/) - multiple icons implemented throughout the site from font awesome version 5
 - [Google Fonts](https://fonts.google.com/) - Both fonts used in the website imported from here 
-- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment with grid, flexbox and general responsiveness. 
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment with grid, flexbox and general responsiveness.
 - [Gitpod](https://www.gitpod.io/) - used to used to create and host the website
 - [Github](https://github.com/) - used to deploy the website 
-- [Multi Device Mock Up Generator](https://techsini.com/multi-mockup/) - to create an image displaying the home page on various devices 
+- [Am I Responsive](https://ui.dev/amiresponsive) - to create an image displaying the home page on various devices 
+- [Grammarly](https://app.grammarly.com/) - to  make writing clear and engaging as well as eliminate grammar errors.
 
 ***
 
-## Testing
+## __Testing__
 
 ![image](https://user-images.githubusercontent.com/111382268/190888477-2d05de20-82c9-4235-b41b-6e40027c3a6c.png)
 
@@ -181,18 +181,18 @@ TBC
 
 ***
 
-## Deployment
+## __Deployment__
 
-The site was deployed to GitHub pages. 
+The site was deployed to GitHub
 
-### Deploy to GitHub Pages
+### __Deploy to GitHub Pages__
 
 1. Navigate to the settings tab in the GitHub repository 
 2. Once in settings, navigate to the pages tab on the left of the page 
 3. Under source, select branch ‘master’ and then click ‘save’
 4. page will no automatically refresh and show a detailed ribbon display to indicate deployment 
 
-### To Fork the Repository 
+### __To Fork the Repository__ 
 
 To make a copy or ‘fork’ the repository - 
 
@@ -201,9 +201,9 @@ To make a copy or ‘fork’ the repository -
 
 ***
 
-## Credits 
+## __Credits__
 
-### Code
+### __Code__
 
 Throughout the building process I found many helpful tutorials online. 
 I sometimes applied principles within them to the site, after fully understanding their code and modifying to fit the site's needs. 
@@ -212,29 +212,25 @@ I sometimes applied principles within them to the site, after fully understandin
 - The image gallery was inspired by Kevin Powell [tutorial](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1968s)
 TBC
 
-***
-
-### Content 
-
-- Many issues were at least partly resolved by searching ...  
-- Harry... 
-- Inspiration for the README.md came from  
-
-***
-
-### Design
+### __Design__
 
 - Design files incl. content, references and images were collected and organised with [Eagle](https://en.eagle.cool/)
 - Wireframes were made using [Balsamiq](https://balsamiq.com/)
 - Colour Scheem was chosen with <img height="12" src="/workspace/mr-and-mrs-cleaners/assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/)
 
-### Media 
+### __Content__
+
+- Many issues were at least partly resolved by searching ...  
+- Harry... 
+- Inspiration for the README.md came from  
+
+### __Media__
+
 - All photos ... TBC
 - https://stock.adobe.com/
 
 
-
-## Acknowledgements 
+## __Acknowledgements__ 
 This website was executed and completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at [Code Institute](https://codeinstitute.net/). 
 
 
