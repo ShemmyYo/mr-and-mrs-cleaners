@@ -6,10 +6,10 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 ![Multi Device Demo](assets/other/am-i-responsive-img.png)
 
 
-## __Live Site__
+## __Live Web-Page__
 [Mr&Mrs Cleaners](https://shemmyyo.github.io/mr-and-mrs-cleaners/)
 
-## Repository 
+## GitHub Repository 
 [https://github.com/ShemmyYo/mr-and-mrs-cleaners](https://github.com/ShemmyYo/mr-and-mrs-cleaners)
 
 ## __Tech Stack__
@@ -38,12 +38,10 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 - [Features](#features)
     - [Existing Features](#existing-features)
         - [Home](#home)
-        - [Dogs](#dogs)
-        - [About](#about)
-        - [Learn](#learn)
+        - [Services](#services)
+        - [Gallery](#gallry)
         - [Contact](#contact)
         - [Form Confirmation](#form-confirmation)
-    - [Future Features](#future-features)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
@@ -57,7 +55,7 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 
 ***
 
-## __Key Project Goals__
+## __Project Goals__
 This project has two main objectives: 
 - To showcase web-technologies like HTML and CSS in compelling static front end application to present content to potential new customers
 - To demonstrate my competency as a developer using HMTL & CSS languages
@@ -124,21 +122,120 @@ I used <img height="12" src="/workspace/mr-and-mrs-cleaners/assets/other/colormi
 
 The three fonts used were imported into the css from [google fonts](https://fonts.google.com/)
 I used 'Dancing Script' for logo, 'Kanit' for all headings & 'Playfair Display' for any other text
+
 ![image](assets/other/google-font-dancing-script.png)
+
 ![image](assets/other/google-font-kanit.png)
+
 ![image](assets/other/google-font-playfair-display.png)
 
 Sans-serif is the nominated fallback font
 
+### __Imagery__
 
+The images have been compressed in [compressor.io](https://compressor.io/) to enable faster loading times. 
+The content images on Gallery Page are aligned in neat symmetrical grids for optimal viewing and user experience. 
 
+***
 
-tbc
+## __Features__
+
+Mr&Mrc Cleaners webpage contains  features such as a navigational bar, service certificates, contact details and footer, familiar to all internet users. This creates a friendly and non intimidating environment in which the user can feel comfortable to explore the pages, make return visits, and enjoy a positive user experience.
+
+### Existing Features
+
+#### Home
+
+##### Navigational Bar 
+
+##### Footer 
+
+#### Gallery
+
+#### Contact
+
+#### Form Confirmation
+
+***
+
+## Technologies Used
+
+- [HTML5](https://html.spec.whatwg.org/) - provides content and structure 
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides styling 
+- [Balsamiq](https://balsamiq.com/) - for wireframes
+TBC
+- [Font Awesome](https://fontawesome.com/) - multiple icons implemented throughout the site from font awesome version 5
+- [Google Fonts](https://fonts.google.com/) - Both fonts used in the website imported from here 
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment with grid, flexbox and general responsiveness. 
+- [Gitpod](https://www.gitpod.io/) - used to used to create and host the website
+- [Github](https://github.com/) - used to deploy the website 
+- [Multi Device Mock Up Generator](https://techsini.com/multi-mockup/) - to create an image displaying the home page on various devices 
+
+***
+
+## Testing
 
 ![image](https://user-images.githubusercontent.com/111382268/190888477-2d05de20-82c9-4235-b41b-6e40027c3a6c.png)
 
 ![image](https://user-images.githubusercontent.com/111382268/190888888-3414d3e0-f842-4c95-9d7b-8d82b4b86115.png)
 
-![image](https://user-images.githubusercontent.com/111382268/191821938-65657aa6-a461-4970-bb05-a7da519d5483.png)
+***
 
-https://stock.adobe.com/
+## Deployment
+
+The site was deployed to GitHub pages. 
+
+### Deploy to GitHub Pages
+
+1. Navigate to the settings tab in the GitHub repository 
+2. Once in settings, navigate to the pages tab on the left of the page 
+3. Under source, select branch ‘master’ and then click ‘save’
+4. page will no automatically refresh and show a detailed ribbon display to indicate deployment 
+
+### To Fork the Repository 
+
+To make a copy or ‘fork’ the repository - 
+
+1. Log into GitHub and locate repository 
+2. On the right hand side of the page select the ‘fork’ option to create and copy of the original
+
+***
+
+## Credits 
+
+### Code
+
+Throughout the building process I found many helpful tutorials online. 
+I sometimes applied principles within them to the site, after fully understanding their code and modifying to fit the site's needs. 
+
+- The service page was inspired by Code Institute's 'Love Running' project with some tweaks to adjust to fit Mr&Mrs Cleaners page and content
+- The image gallery was inspired by Kevin Powell [tutorial](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1968s)
+TBC
+
+***
+
+### Content 
+
+- Many issues were at least partly resolved by searching ...  
+- Harry... 
+- Inspiration for the README.md came from  
+
+***
+
+### Design
+
+- Design files incl. content, references and images were collected and organised with [Eagle](https://en.eagle.cool/)
+- Wireframes were made using [Balsamiq](https://balsamiq.com/)
+- Colour Scheem was chosen with <img height="12" src="/workspace/mr-and-mrs-cleaners/assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/)
+
+### Media 
+- All photos ... TBC
+- https://stock.adobe.com/
+
+
+
+## Acknowledgements 
+This website was executed and completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at [Code Institute](https://codeinstitute.net/). 
+
+
+Shemmy, 2022
