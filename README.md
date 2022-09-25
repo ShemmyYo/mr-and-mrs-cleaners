@@ -137,7 +137,7 @@ The content images on Gallery Page are aligned in neat symmetrical grids for opt
 
 ## __Features__
 
-### __Common Elements__
+### __Home__
 
 - __Logo and Navigation Bar as well as Service Certs, Google map, contact details and footer are elements common to all pages and are designed to be fully responsive__
 
@@ -145,40 +145,46 @@ The content images on Gallery Page are aligned in neat symmetrical grids for opt
 Mobile first:
 
 
-![image](assets/other/logo-nav-mobile.png) ![image](assets/other/footer-mobile.png)
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/logo-nav-mobile.png) ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/footer-mobile.png)
 ***
-Large display Nav & logo:
-
-
-![image](assets/other/logo-nav.png)
+##### __Navigational Bar__ - Large display:
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/logo-nav.png)
 ***
-Large display Service Certs, Google map, contact details and footer:
+##### __Footer__ - Large display:
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/footer.png) 
+***
+#### __Services & Gallery__
+- __Services Page was created Flex which is a flexible and responsive layout structure__
+- __Gallery Page Grid was used to display gallery in one simple, grid-based layout system for maximum impact__
+- __Both Services & Gallery images and text box are fully responsive and will resize in accordance with the size of the screen__
 
 
-![image](assets/other/footer.png) 
+ Mobile first:
 
 
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/services-mobile.png)
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/gallery-mobile.png)
+***
+##### __Services__ - Large display:
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/services.png)
+***
+##### __Gallery__ - Large display:
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/gallery.png)
+***
+#### __Contact & Form Confirmation Page__ 
 
 
-[Mobile First](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/logo-nav.png)
-  
-Mr&Mrs Cleaners webpage contains features such as a navigational bar, service certificates, contact details and footer, familiar to all users. 
-This creates a user friendly environment in which the user can feel comfortable to explore the pages, make return visits, and enjoy a positive user experience.
+Mobile First:
 
-### __Existing Features__
 
-#### __Home__
-
-##### __Navigational Bar__
-
-##### __Footer__
-
-#### __Gallery__
-
-#### __Contact__
-
-#### __Form Confirmation__
-
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-form-mobile.png)
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/form-confirmation-mobile.png)
+***
+#### __Contact__ - Large display:
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-form.png)
+***
+#### __Form Confirmation__ - Large display:
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/form-confirmation.png)
 ***
 
 ## __Technologies Used__
