@@ -2,7 +2,7 @@
 
 Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleaner.ie/) of my friends and is intended to showcase new web-technologies (like HTML and CSS) and new, atractive solution to presenting their business content to potential new customers
 
-![Multi Device Demo](assets/other/am-i-responsive-img.png)
+![Multi Device Demo](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/am-i-responsive-img.png)
 
 ## __Live Web-Page__
 [Mr&Mrs Cleaners](https://shemmyyo.github.io/mr-and-mrs-cleaners/)
@@ -107,6 +107,8 @@ Contact Page:
 ### __Site Structure__
 
 Mr&Mrs Cleaners is a 5 page website. 
+
+
 The home page is the default loading page, 3 pages are accessible from the navigation menu at all times and 1 page is only displayed on Contact Page Form submittion.  
 
 ### __Colour Scheme__
@@ -118,19 +120,25 @@ I used <img height="12" src="assets/other/colormind-logo.png"> [Colormind](http:
 ### __Typography__
 
 The three fonts used were imported into the css from [Google Fonts](https://fonts.google.com/)
+
+
 I used 'Dancing Script' for logo, 'Kanit' for all headings & 'Playfair Display' for any other text
 
-![image](assets/other/google-font-dancing-script.png)
 
-![image](assets/other/google-font-kanit.png)
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/google-font-dancing-script.png)
 
-![image](assets/other/google-font-playfair-display.png)
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/google-font-kanit.png)
+
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/google-font-playfair-display.png)
+
 
 Sans-serif is the nominated fallback font
 
 ### __Imagery__
 
 The images have been compressed in [compressor.io](https://compressor.io/) to enable faster loading times. 
+
+
 The content images on Gallery Page are aligned in neat symmetrical grids for optimal viewing and user experience. 
 
 ***
@@ -154,7 +162,7 @@ Mobile first:
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/footer.png) 
 ***
 #### __Services & Gallery__
-- __Services Page was created Flex which is a flexible and responsive layout structure__
+- __Services Page was created in a flexible and responsive layout structure - Flex__
 - __Gallery Page Grid was used to display gallery in one simple, grid-based layout system for maximum impact__
 - __Both Services & Gallery images and text box are fully responsive and will resize in accordance with the size of the screen__
 
@@ -172,6 +180,10 @@ Mobile first:
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/gallery.png)
 ***
 #### __Contact & Form Confirmation Page__ 
+- __Contact Page containd form which contains basic text, email inputs (required) and submittion button which brings the user toform submittion confirmation page.__
+__Contact page was created in a flexible and responsive layout structure - Flex__
+- __Form submittion confirmation page displays a simple message and auto re-directs to home page after 10 sec__
+- __Both pages' images and text box are fully responsive and will resize in accordance with the size of the screen__
 
 
 Mobile First:
@@ -220,7 +232,7 @@ Mobile First:
 
 - CSS Validator [Jigsaw](https://jigsaw.w3.org/css-validator/) by The World Wide Web Consortium [W3C](https://www.w3.org/)
 
-![image](assets/other/css-validator.png)
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/css-validator.png)
 
 - Lighthouse feature in Google Chrome's Developer Tools
 
@@ -256,6 +268,7 @@ To make a copy or ‘fork’ the repository -
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository
 
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/ShemmyYo/mr-and-mrs-cleaners)
 
 ***
@@ -270,8 +283,10 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 - The confirmation.html idea was inspired by my menthor [Harry Dillon](https://github.com/Harry-Leepz)
 - The code to automaticaly switch to home page  `<meta http-equiv="refresh" content="10; url=index.html">` thanks to my colleague [Adam Gilroy](https://github.com/adamgilroy22)   
 
-Throughout the building process I found many helpful tutorials online
-I sometimes applied principles within them to the site, after fully understanding their code and modifying to fit the site's needs
+Throughout the building process I found many helpful tutorials online.
+
+
+I sometimes applied principles within them to the site, after fully understanding their code and modifying to fit the site's needs.
 
 ### __Design__
 
@@ -293,6 +308,8 @@ I sometimes applied principles within them to the site, after fully understandin
 ## __Acknowledgements__ 
 
 This website was executed and completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at [Code Institute](https://codeinstitute.net/)
+
+
 Big thank you to [Harry Dhillon](https://github.com/Harry-Leepz), my mentor who provided me with guide and excellent feedback throughout the project
 
 Shemmy, 2022
