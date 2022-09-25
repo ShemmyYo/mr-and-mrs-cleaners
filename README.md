@@ -177,11 +177,15 @@ This creates a user friendly environment in which the user can feel comfortable 
 
 - HTML [Markup Validator](https://validator.w3.org/) by The World Wide Web Consortium [W3C](https://www.w3.org/)
 
-![index.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-index.png)
-![sevices.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-services.png)
-![gallery.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-gallery.png)
-![contact.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-contact.png)
-![confirmation.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-comfirmation.png)
+![index.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-index.png) __index.html__
+***
+![sevices.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-services.png) __services.html__
+***
+![gallery.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-gallery.png) __gallery.html__
+***
+![contact.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-contact.png)__contact.html__
+***
+![confirmation.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-comfirmation.png) __confirmation.html__
 
 - CSS Validator [Jigsaw](https://jigsaw.w3.org/css-validator/) by The World Wide Web Consortium [W3C](https://www.w3.org/)
 

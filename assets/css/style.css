@@ -758,24 +758,6 @@ contact us page
 		max-width: 50%;
 	}
 	
-	.contact-us-container {
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-		min-height: 400px;
-	}
-	
-	.contact-us-container-form {
-		width: 40%;
-	}
-	
-	.contact-us-container-img {
-		float: left;
-		min-width: 100px;
-		width: 40%;
-		margin: 5% 1% 5% 5%;
-	}
-	
 	#offer-satisfsction-h3 {
 		font-size: 180%;
 	}
@@ -879,6 +861,24 @@ contact us page
 	#contact-map {
 		width: 55%;
 		height: auto;
+	}
+	
+	.contact-us-container {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		min-height: 400px;
+	}
+	
+	.contact-us-container-form {
+		width: 40%;
+	}
+	
+	.contact-us-container-img {
+		float: left;
+		min-width: 100px;
+		width: 40%;
+		margin: 5% 1% 5% 5%;
 	}
 	
 	#contact-text {
