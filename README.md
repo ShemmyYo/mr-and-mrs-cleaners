@@ -12,8 +12,8 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 
 ## __Tech Stack__
 
-<img height="42" src="workspace/mr-and-mrs-cleaners/assets/other/html.png"> __HTML5__
-<img height="50" src="workspace/mr-and-mrs-cleaners/assets/other/css-img.png"> __CSS3__
+<img height="42" src="https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html.png"> __HTML5__
+<img height="50" src="assets/other/css-img.png"> __CSS3__
 <img height="50" src="workspace/mr-and-mrs-cleaners/assets/other/gitpod.png"> __Gitpod__
 <img height="45" src="workspace/mr-and-mrs-cleaners/assets/other/github.png"> __Git__
 
@@ -76,31 +76,31 @@ TBC
 
 Home Page:
 
-![Home Page Wireframe](assets/other/index-large.pdf)
+![Home Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index-large.pdf)
 
 Services Page:
 
-![Services Page Wireframe](assets/other/services-large.pdf)
+![Services Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/services-large.pdf)
 
 Gallery Page:
 
-![Gallery Page Wireframe](assets/other/gallery-large.pdf)
+![Gallery Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/gallery-large.pdf)
 
 Contact Page:
 
-![Contact Page Wireframe](assets/other/contact-large.pdf)
+![Contact Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-large.pdf)
 
 Contact Page:
 
-![Form Submittion - Thank You Page Wireframe]()
+![Form Submittion - Thank You Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-thank-you-form.pdf)
 
 #### __Tablet__ 
 
-![Tablet Wireframes](assets/other/index-large-tablet.pdf)
+![Tablet Wireframes](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index-large-tablet.pdf)
 
 #### __Desktop__ 
 
-![Desktop Wireframes](assets/other/index.pdf)
+![Desktop Wireframes](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index.pdf)
 
 ***
 
