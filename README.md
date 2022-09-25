@@ -137,7 +137,32 @@ The content images on Gallery Page are aligned in neat symmetrical grids for opt
 
 ## __Features__
 
-Mr&Mrc Cleaners webpage contains features such as a navigational bar, service certificates, contact details and footer, familiar to all users. 
+### __Common Elements__
+
+- __Logo and Navigation Bar as well as Service Certs, Google map, contact details and footer are elements common to all pages and are designed to be fully responsive__
+
+
+Mobile first:
+
+
+![image](assets/other/logo-nav-mobile.png) ![image](assets/other/footer-mobile.png)
+***
+Large display Nav & logo:
+
+
+![image](assets/other/logo-nav.png)
+***
+Large display Service Certs, Google map, contact details and footer:
+
+
+![image](assets/other/footer.png) 
+
+
+
+
+[Mobile First](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/logo-nav.png)
+  
+Mr&Mrs Cleaners webpage contains features such as a navigational bar, service certificates, contact details and footer, familiar to all users. 
 This creates a user friendly environment in which the user can feel comfortable to explore the pages, make return visits, and enjoy a positive user experience.
 
 ### __Existing Features__
