@@ -12,16 +12,16 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 
 ## __Tech Stack__
 
-<img height="42" src="/workspace/mr-and-mrs-cleaners/assets/other/html.png"> **HTML5**
-<img height="50" src="/workspace/mr-and-mrs-cleaners/assets/other/css-img.png"> **CSS3**
-<img height="50" src="/workspace/mr-and-mrs-cleaners/assets/other/gitpod.png"> **Gitpod**
-<img height="45" src="/workspace/mr-and-mrs-cleaners/assets/other/github.png"> **Git**
+<img height="42" src="workspace/mr-and-mrs-cleaners/assets/other/html.png"> __HTML5__
+<img height="50" src="workspace/mr-and-mrs-cleaners/assets/other/css-img.png"> __CSS3__
+<img height="50" src="workspace/mr-and-mrs-cleaners/assets/other/gitpod.png"> __Gitpod__
+<img height="45" src="workspace/mr-and-mrs-cleaners/assets/other/github.png"> __Git__
 
 ***
 
 ## __Contents__
 
-- [Key Project Goals](#key-project-goals)
+- [Project Goals](#project-goals)
 - [Brief](#brief)
 - [Target Audience](#target-audience)
 - [UX User Experience](#ux-user-experience)
@@ -74,23 +74,21 @@ TBC
 
 ### __Wireframes__
 
-#### __Phone__
-
 Home Page:
 
-![Home Page Wireframe]()
+![Home Page Wireframe](assets/other/index-large.pdf)
 
 Services Page:
 
-![Services Page Wireframe]()
+![Services Page Wireframe](assets/other/services-large.pdf)
 
 Gallery Page:
 
-![Gallery Page Wireframe]()
+![Gallery Page Wireframe](assets/other/gallery-large.pdf)
 
 Contact Page:
 
-![Contact Page Wireframe]()
+![Contact Page Wireframe](assets/other/contact-large.pdf)
 
 Contact Page:
 
@@ -98,11 +96,11 @@ Contact Page:
 
 #### __Tablet__ 
 
-![Tablet Wireframes]()
+![Tablet Wireframes](assets/other/index-large-tablet.pdf)
 
 #### __Desktop__ 
 
-![Desktop Wireframes]()
+![Desktop Wireframes](assets/other/index.pdf)
 
 ***
 
@@ -164,7 +162,8 @@ Mr&Mrc Cleaners webpage contains  features such as a navigational bar, service c
 - [Balsamiq](https://balsamiq.com/) - for wireframes
 - [Eagle](https://en.eagle.cool/) - to collect, search and organize your design files in a logical way and all in one place
 - [Font Awesome](https://fontawesome.com/) - multiple icons implemented throughout the site from font awesome version 5
-- [Google Fonts](https://fonts.google.com/) - Both fonts used in the website imported from here 
+- [Google Fonts](https://fonts.google.com/) - All three fonts used in the website imported from here 
+- [CSS Gradient](https://cssgradient.io/) - created a gradient background for websites
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment with grid, flexbox and general responsiveness.
 - [Gitpod](https://www.gitpod.io/) - used to used to create and host the website
 - [Github](https://github.com/) - used to deploy the website 
