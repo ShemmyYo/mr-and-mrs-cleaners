@@ -191,18 +191,30 @@ This creates a user friendly environment in which the user can feel comfortable 
 
 ![image](assets/other/css-validator.png)
 
+- Lighthouse feature in Google Chrome's Developer Tools
+
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/lighthouse-validator-laptop.png) __results for laptop__
+
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/lighthouse-validator.png) __results for mobile__
+
 ***
 
 ## __Deployment__
 
-The site was deployed to GitHub
+The site was deployed to GitHub __[link](https://github.com/ShemmyYo/mr-and-mrs-cleaners/settings/pages)__
 
 ### __Deploy to GitHub Pages__
 
 1. Navigate to the settings tab in the GitHub repository 
 2. Once in settings, navigate to the pages tab on the left of the page 
-3. Under source, select branch ‘master’ and then click ‘save’
-4. page will no automatically refresh and show a detailed ribbon display to indicate deployment 
+3. From the source section drop-down menu, select the Main Branch, then click "Save".
+4. page will no automatically refresh and show a detailed ribbon display to indicate successful deployment 
+
+### __Local Deployment__
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/adamgilroy22/happy-dog-cafe.git`
 
 ### __To Fork the Repository__ 
 
@@ -211,39 +223,45 @@ To make a copy or ‘fork’ the repository -
 1. Log into GitHub and locate repository 
 2. On the right hand side of the page select the ‘fork’ option to create and copy of the original
 
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/ShemmyYo/mr-and-mrs-cleaners)
+
 ***
 
 ## __Credits__
 
 ### __Code__
 
-Throughout the building process I found many helpful tutorials online. 
-I sometimes applied principles within them to the site, after fully understanding their code and modifying to fit the site's needs. 
-
-- The service page was inspired by Code Institute's 'Love Running' project with some tweaks to adjust to fit Mr&Mrs Cleaners page and content
+- The home page and hero image was inspired by [Code Institute's](https://codeinstitute.net/) 'Love Running' walkthrough project
+- The services page was inspired by Code Institute's 'Love Running' project with some tweaks to adjust to fit Mr&Mrs Cleaners page and content
 - The image gallery was inspired by Kevin Powell [tutorial](https://www.youtube.com/watch?v=rg7Fvvl3taU&t=1968s)
-TBC
+- The confirmation.html idea was inspired by my menthor [Harry Dillon](https://github.com/Harry-Leepz)
+- The code to automaticaly switch to home page  `<meta http-equiv="refresh" content="10; url=index.html">` thanks to my colleague [Adam Gilroy](https://github.com/adamgilroy22)   
+
+Throughout the building process I found many helpful tutorials online
+I sometimes applied principles within them to the site, after fully understanding their code and modifying to fit the site's needs
 
 ### __Design__
 
 - Design files incl. content, references and images were collected and organised with [Eagle](https://en.eagle.cool/)
 - Wireframes were made using [Balsamiq](https://balsamiq.com/)
-- Colour Scheem was chosen with <img height="12" src="/workspace/mr-and-mrs-cleaners/assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/)
+- Colour scheme was chosen with <img height="12" src="/workspace/mr-and-mrs-cleaners/assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/)
+- Gradient backgrounds were generated with [CSS Gradient](https://cssgradient.io/) - happy little website and free tool that lets you create a gradient background
+- The three fonts used across the site were imported from [Google Fonts](https://fonts.google.com/)
 
 ### __Content__
 
-- Many issues were at least partly resolved by searching ...  
-- Harry... 
-- Inspiration for the README.md came from  
+- Some content used in this project was copied from and with knowledge and approval from my friends business page [Mrs&Mr.Cleaner](http://www.mrsandmrcleaner.ie)
+- Inspiration for the README.md came from [Tasha Johnson](https://github.com/TashaTJ)
 
 ### __Media__
 
-- All photos ... TBC
-- https://stock.adobe.com/
-
+- All photos used on throughout the site are from and used under the [stock.adobe.com](https://stock.adobe.com/) license
 
 ## __Acknowledgements__ 
-This website was executed and completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at [Code Institute](https://codeinstitute.net/). 
 
+This website was executed and completed as a Portfolio 1 Project for the Full Stack Software Developer Diploma at [Code Institute](https://codeinstitute.net/)
+Big thank you to [Harry Dhillon](https://github.com/Harry-Leepz), my mentor who provided me with guide and excellent feedback throughout the project
 
 Shemmy, 2022
