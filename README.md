@@ -12,10 +12,10 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 
 ## __Tech Stack__
 
-<img height="42" src="https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html.png"> __HTML5__
+<img height="42" src="assets/other/html.png"> __HTML5__
 <img height="50" src="assets/other/css-img.png"> __CSS3__
-<img height="50" src="workspace/mr-and-mrs-cleaners/assets/other/gitpod.png"> __Gitpod__
-<img height="45" src="workspace/mr-and-mrs-cleaners/assets/other/github.png"> __Git__
+<img height="50" src="assets/other/gitpod.png"> __Gitpod__
+<img height="45" src="assets/other/github.png"> __Git__
 
 ***
 
@@ -76,31 +76,31 @@ TBC
 
 Home Page:
 
-![Home Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index-large.pdf)
+![Home Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index-large.jpg)
 
 Services Page:
 
-![Services Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/services-large.pdf)
+![Services Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/services-large.jpg)
 
 Gallery Page:
 
-![Gallery Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/gallery-large.pdf)
+![Gallery Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/gallery-large.jpg)
 
 Contact Page:
 
-![Contact Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-large.pdf)
+![Contact Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-large.jpg)
 
 Contact Page:
 
-![Form Submittion - Thank You Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-thank-you-form.pdf)
+![Form Submittion - Thank You Page Wireframe](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-thank-you-form.jpg)
 
 #### __Tablet__ 
 
-![Tablet Wireframes](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index-large-tablet.pdf)
+![Tablet Wireframes](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index-large-tablet.jpg)
 
 #### __Desktop__ 
 
-![Desktop Wireframes](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index.pdf)
+![Desktop Wireframes](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index.jpg)
 
 ***
 
