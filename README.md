@@ -1,6 +1,7 @@
 # __Portfolio Project 1 - HTML/CSS Essentials__
 
-Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleaner.ie/) of my friends and is intended to showcase new web-technologies (like HTML and CSS) and new, atractive solution to presenting their business content to potential new customers
+Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleaner.ie/) of my friends and is intended to showcase web-technologies (HTML and CSS) and provide new, atractive solutions to presenting their business content to potential new and existing customers. This project is made for educational purposes.
+
 
 ![Multi Device Demo](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/am-i-responsive-img.png)
 
@@ -23,10 +24,7 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 
 - [Project Goals](#project-goals)
 - [Brief](#brief)
-- [Target Audience](#target-audience)
 - [UX User Experience](#ux-user-experience)
-    - [User Stories](#user-stories)
-    - [Initial Concept](#initial-concept)
     - [Wireframes](#wireframes)
     - [Site Structure](#site-structure)
     - [Colour Scheme](#colour-scheme)
@@ -42,8 +40,9 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Deployment](#deployment)
+    - [Deploy to GitHub Pages](#deploy-to-github-pages)
+    - [Local Deployment](#local-deployment)
     - [To Fork the Repository](#to-fork-the-repository)
-    - [To create a Local Clone](#to-create-a-local-clone)
 - [Credits](#credits)
     - [Code](#code)
     - [Design](#design)
@@ -60,19 +59,19 @@ This project has two main objectives:
 
 ## __Brief__
 
-TBC
-
-## __Target Audience__
+After viewing business webpage of my friends [Mrs&Mr.Cleaner](http://mrsandmrcleaner.ie) I discovered that there is a huge potential to update their page to modern standards. 
+I decided to take on this challenge and showcase my vision of their website.
+Throughout the challenge I often watched tutorials and content online and in particular, I found it very interesting to watch YouTube channels of:
+- [Kevin Powell](https://www.youtube.com/kepowob)
+- [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
 
 ***
 
 ## __UX User Experience__
 
-### __User Stories__ 
-
-### __Initial Concept__
-
 ### __Wireframes__
+Before writing any HTML or CSS, I used Eagle to gather ideas and Balsamiq to create wireframes.
+
 
 Home Page:
 
@@ -145,7 +144,9 @@ The content images on Gallery Page are aligned in neat symmetrical grids for opt
 
 ## __Features__
 
-### __Home__
+### __Existing Features__
+
+#### __Home__
 
 - __Logo and Navigation Bar as well as Service Certs, Google map, contact details and footer are elements common to all pages and are designed to be fully responsive__
 
@@ -192,10 +193,10 @@ Mobile First:
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-form-mobile.png)
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/form-confirmation-mobile.png)
 ***
-#### __Contact__ - Large display:
+##### __Contact__ - Large display:
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/contact-form.png)
 ***
-#### __Form Confirmation__ - Large display:
+##### __Form Confirmation__ - Large display:
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/form-confirmation.png)
 ***
 
