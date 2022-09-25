@@ -98,7 +98,7 @@ Contact Page:
 
 ![Tablet Wireframes](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index-large-tablet.jpg)
 
-#### __Desktop__ 
+#### __Desktop Design__ 
 
 ![Desktop Wireframes](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/index.jpg)
 
@@ -111,13 +111,13 @@ The home page is the default loading page, 3 pages are accessible from the navig
 
 ### __Colour Scheme__
 
-I used <img height="12" src="/workspace/mr-and-mrs-cleaners/assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/) to find a perfect colour scheme that would tie-in with the nature of the business, be easily readable and visually appealing to users.
+I used <img height="12" src="assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/) to find a perfect colour scheme that would tie-in with the nature of the business, be easily readable and visually appealing to users.
 
-![image](assets/other/color-scheme.png)
+![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/color-scheme.png)
 
 ### __Typography__
 
-The three fonts used were imported into the css from [google fonts](https://fonts.google.com/)
+The three fonts used were imported into the css from [Google Fonts](https://fonts.google.com/)
 I used 'Dancing Script' for logo, 'Kanit' for all headings & 'Playfair Display' for any other text
 
 ![image](assets/other/google-font-dancing-script.png)
@@ -137,7 +137,8 @@ The content images on Gallery Page are aligned in neat symmetrical grids for opt
 
 ## __Features__
 
-Mr&Mrc Cleaners webpage contains  features such as a navigational bar, service certificates, contact details and footer, familiar to all internet users. This creates a friendly and non intimidating environment in which the user can feel comfortable to explore the pages, make return visits, and enjoy a positive user experience.
+Mr&Mrc Cleaners webpage contains features such as a navigational bar, service certificates, contact details and footer, familiar to all users. 
+This creates a user friendly environment in which the user can feel comfortable to explore the pages, make return visits, and enjoy a positive user experience.
 
 ### __Existing Features__
 
@@ -174,9 +175,17 @@ Mr&Mrc Cleaners webpage contains  features such as a navigational bar, service c
 
 ## __Testing__
 
-![image](https://user-images.githubusercontent.com/111382268/190888477-2d05de20-82c9-4235-b41b-6e40027c3a6c.png)
+- HTML [Markup Validator](https://validator.w3.org/) by The World Wide Web Consortium [W3C](https://www.w3.org/)
 
-![image](https://user-images.githubusercontent.com/111382268/190888888-3414d3e0-f842-4c95-9d7b-8d82b4b86115.png)
+![index.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-index.png)
+![sevices.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-services.png)
+![gallery.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-gallery.png)
+![contact.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-contact.png)
+![confirmation.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-comfirmation.png)
+
+- CSS Validator [Jigsaw](https://jigsaw.w3.org/css-validator/) by The World Wide Web Consortium [W3C](https://www.w3.org/)
+
+![image](assets/other/css-validator.png)
 
 ***
 
