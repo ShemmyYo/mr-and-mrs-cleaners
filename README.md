@@ -256,9 +256,9 @@ The site was deployed to GitHub __[link](https://github.com/ShemmyYo/mr-and-mrs-
 
 ### __Local Deployment__
 
-In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+To make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/adamgilroy22/happy-dog-cafe.git`
+- `git clone https://github.com/shemmyyo/mr-and-mrs-cleaners.git`
 
 ### __To Fork the Repository__ 
 
@@ -293,7 +293,7 @@ I sometimes applied principles within them to the site, after fully understandin
 
 - Design files incl. content, references and images were collected and organised with [Eagle](https://en.eagle.cool/)
 - Wireframes were made using [Balsamiq](https://balsamiq.com/)
-- Colour scheme was chosen with <img height="12" src="/workspace/mr-and-mrs-cleaners/assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/)
+- Colour scheme was chosen with <img height="12" src="https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/colormind-logo.png"> [Colormind](http://colormind.io/bootstrap/)
 - Gradient backgrounds were generated with [CSS Gradient](https://cssgradient.io/) - happy little website and free tool that lets you create a gradient background
 - The three fonts used across the site were imported from [Google Fonts](https://fonts.google.com/)
 
