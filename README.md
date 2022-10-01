@@ -246,9 +246,13 @@ Mobile First:
 ***
 ![confirmation.html](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/html-validator-comfirmation.png) __confirmation.html__
 
+***
+
 - CSS Validator [Jigsaw](https://jigsaw.w3.org/css-validator/) by The World Wide Web Consortium [W3C](https://www.w3.org/)
 
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/css-validator.png)
+
+***
 
 - Lighthouse feature in Google Chrome's Developer Tools
 
@@ -256,6 +260,7 @@ Mobile First:
 
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/lighthouse-validator.png) __results for mobile__
 
+***
 
 - Tests based on user stories:
 
@@ -273,30 +278,27 @@ Mobile First:
 
     - __be able to contact the company directly via form__ - The contact form included on the contact page has been validated from a text type perspective as well as form shows a warning msg for all mandatory fields. No errors 
 
-
-
-
+***
 
 - Responsive tests were carried out manually using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/). The site loaded and ran smoothly on all devices and content adjusted as expected for each screen size.
 
-Devices tested:
-- min. width of 320px
-- media breakpoint at 768px
-- media breakpoint at 1200px
-- Samsung Galaxy S8, S20 Ultra
-- Iphone SE, XR, 12pro
-- Pixel 5
-- Ipad Air & Mini
-- Surface pro 7 & duo
-- Nest Hub & Hub Max
+    Devices tested:
+    - min. width of 320px
+    - media breakpoint at 768px
+    - media breakpoint at 1200px
+    - Samsung Galaxy S8, S20 Ultra
+    - Iphone SE, XR, 12pro
+    - Pixel 5
+    - Ipad Air & Mini
+    - Surface pro 7 & duo
+    - Nest Hub & Hub Max
 
-
+***
 
 - Browser Compatibility
 
 After publishing the site through Github pages, the site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox, with no visible issues for the user. 
 The site has loaded perfectly and had no issues across all browsers.
-
 
 
 ***
