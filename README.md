@@ -277,16 +277,26 @@ Mobile First:
 
 
 
-- Responsive tests were carried out manually using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/). 
+- Responsive tests were carried out manually using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/). The site loaded and ran smoothly on all devices and content adjusted as expected for each screen size.
 
 Devices tested:
 - min. width of 320px
+- media breakpoint at 768px
+- media breakpoint at 1200px
 - Samsung Galaxy S8, S20 Ultra
 - Iphone SE, XR, 12pro
 - Pixel 5
 - Ipad Air & Mini
 - Surface pro 7 & duo
 - Nest Hub & Hub Max
+
+
+
+- Browser Compatibility
+
+After publishing the site through Github pages, the site was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox, with no visible issues for the user. 
+The site has loaded perfectly and had no issues across all browsers.
+
 
 
 ***
