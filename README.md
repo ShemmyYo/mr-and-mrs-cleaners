@@ -25,6 +25,7 @@ Mr&Mrs Cleaners is a variation on live [business webpage](https://mrsandmrcleane
 - [Project Goals](#project-goals)
 - [Brief](#brief)
 - [UX User Experience](#ux-user-experience)
+    - [User Stories](#user-stories)
     - [Wireframes](#wireframes)
     - [Site Structure](#site-structure)
     - [Colour Scheme](#colour-scheme)
@@ -68,6 +69,20 @@ Throughout the challenge I often watched tutorials and content online and in par
 ***
 
 ## __UX User Experience__
+
+
+### __User Stories__
+
+As a user I want to be able to:
+
+- Understand the character and purpose of the business
+- Navigate through the site smoothly
+- See examples of services provided
+- View the business location and contact details
+- Connect with the business on social media 
+- be able to contact the company directly via form
+- Learn more about the developer who created the site
+
 
 ### __Wireframes__
 Before writing any HTML or CSS, I used Eagle to gather ideas and Balsamiq to create wireframes.
@@ -240,6 +255,39 @@ Mobile First:
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/lighthouse-validator-laptop.png) __results for laptop__
 
 ![image](https://github.com/ShemmyYo/mr-and-mrs-cleaners/blob/main/assets/other/lighthouse-validator.png) __results for mobile__
+
+
+- Tests based on user stories:
+
+    - __Navigate through the site smoothly__ - each page has been tested separately using HTML and CSS Validators as well as Lighthouse feature in Google's Dev Tool with a positive outcome and no major errors or warnings. The pages can be accessed in the same way on every page, via a very simply navigational menu, which highlights what page is active or hovered. Each link has been validated successfully.
+
+
+    - __See examples of services provided__ - each page responsiveness has been tested manually using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/). The services page has detailed information on services provided and the gallery page extensive examples of successfully carried out previous jobs. Both pages' text and images collapse to 1 row on mobile and 2 rows, with no graphics in tablet view. Test positive and no bugs discovered.
+
+
+    - __View the business location and contact details__ - each page has a Google map iframe to the bottom of the page and contact details. This was designed to stretch the map across in a mobile view and include contact details and a link (button) to a contact page which brings the user to the contact form on a contact page. A link has been validated and responsiveness tested positive with no errors.
+
+
+    - __Connect with the business on social media__ - in addition, to tests carried out for business location maps and contact details, Social Media links have also been validated positive. Each link opens social media on a separate page - no errors have been found.   
+
+
+    - __be able to contact the company directly via form__ - The contact form included on the contact page has been validated from a text type perspective as well as form shows a warning msg for all mandatory fields. No errors 
+
+
+
+
+
+- Responsive tests were carried out manually using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/). 
+
+Devices tested:
+- min. width of 320px
+- Samsung Galaxy S8, S20 Ultra
+- Iphone SE, XR, 12pro
+- Pixel 5
+- Ipad Air & Mini
+- Surface pro 7 & duo
+- Nest Hub & Hub Max
+
 
 ***
 
