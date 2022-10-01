@@ -224,11 +224,12 @@ Mobile First:
 - [Font Awesome](https://fontawesome.com/) - multiple icons implemented throughout the site from font awesome version 5
 - [Google Fonts](https://fonts.google.com/) - All three fonts used in the website imported from here 
 - [CSS Gradient](https://cssgradient.io/) - created a gradient background for websites
-- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment with grid, flexbox and general responsiveness.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - used extensively to experiment with grid, flexbox and general responsiveness
 - [Gitpod](https://www.gitpod.io/) - used to used to create and host the website
 - [Github](https://github.com/) - used to deploy the website 
 - [Am I Responsive](https://ui.dev/amiresponsive) - to create an image displaying the home page on various devices 
-- [Grammarly](https://app.grammarly.com/) - to  make writing clear and engaging as well as eliminate grammar errors.
+- [Grammarly](https://app.grammarly.com/) - to make writing clear and engaging as well as eliminate grammar errors
+- [Favicon](https://https://favicon.io//) - to make icon
 
 ***
 
@@ -365,6 +366,7 @@ I sometimes applied principles within them to the site, after fully understandin
 ### __Media__
 
 - All photos used on throughout the site are from and used under the [stock.adobe.com](https://stock.adobe.com/) license
+- Favincon made with Favicon.io
 
 ## __Acknowledgements__ 
 
